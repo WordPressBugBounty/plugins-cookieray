@@ -1,0 +1,746 @@
+[
+    {
+        "domain_pattern": "googletagmanager.com",
+        "provider": "Google Tag Manager",
+        "category": "marketing",
+        "type": "script",
+        "risk_level": "high",
+        "inline_patterns": [
+            "gtag(",
+            "dataLayer.push",
+            "gtm.js",
+            "GTM-"
+        ],
+        "description": "Container for Google and third-party marketing tags. Can load any tracker."
+    },
+    {
+        "domain_pattern": "google-analytics.com",
+        "provider": "Google Analytics 4",
+        "category": "analytics",
+        "type": "script",
+        "risk_level": "medium",
+        "inline_patterns": [
+            "gtag('config'",
+            "ga('create'",
+            "ga('send'",
+            "_gaq.push"
+        ],
+        "description": "Web analytics service tracking pageviews, events, and user behavior."
+    },
+    {
+        "domain_pattern": "analytics.google.com",
+        "provider": "Google Analytics",
+        "category": "analytics",
+        "type": "script",
+        "risk_level": "medium",
+        "inline_patterns": [],
+        "description": "Google Analytics measurement protocol endpoint."
+    },
+    {
+        "domain_pattern": "connect.facebook.net",
+        "provider": "Meta Pixel (Facebook)",
+        "category": "marketing",
+        "type": "script",
+        "risk_level": "high",
+        "inline_patterns": [
+            "fbq('init'",
+            "fbq('track'",
+            "!function(f,b,e,v,n,t,s)"
+        ],
+        "description": "Facebook tracking pixel for ad conversion, custom audiences, and retargeting."
+    },
+    {
+        "domain_pattern": "facebook.net",
+        "provider": "Facebook SDK",
+        "category": "marketing",
+        "type": "script",
+        "risk_level": "high",
+        "inline_patterns": [
+            "FB.init(",
+            "FB.AppEvents"
+        ],
+        "description": "Facebook JavaScript SDK for social plugins and tracking."
+    },
+    {
+        "domain_pattern": "www.facebook.com/tr",
+        "provider": "Meta Pixel",
+        "category": "marketing",
+        "type": "pixel",
+        "risk_level": "high",
+        "inline_patterns": [],
+        "description": "Facebook conversion tracking pixel endpoint."
+    },
+    {
+        "domain_pattern": "analytics.tiktok.com",
+        "provider": "TikTok Pixel",
+        "category": "marketing",
+        "type": "script",
+        "risk_level": "high",
+        "inline_patterns": [
+            "ttq.load(",
+            "ttq.track(",
+            "ttq.page()",
+            "ttq.identify("
+        ],
+        "description": "TikTok advertising pixel for conversion tracking and audience building."
+    },
+    {
+        "domain_pattern": "snap.licdn.com",
+        "provider": "LinkedIn Insight Tag",
+        "category": "marketing",
+        "type": "script",
+        "risk_level": "high",
+        "inline_patterns": [
+            "_linkedin_partner_id",
+            "lintrk('track'"
+        ],
+        "description": "LinkedIn conversion tracking for B2B ad campaigns."
+    },
+    {
+        "domain_pattern": "px.ads.linkedin.com",
+        "provider": "LinkedIn Insight Tag",
+        "category": "marketing",
+        "type": "pixel",
+        "risk_level": "high",
+        "inline_patterns": [],
+        "description": "LinkedIn pixel endpoint for ad conversion tracking."
+    },
+    {
+        "domain_pattern": "analytics.twitter.com",
+        "provider": "Twitter/X Pixel",
+        "category": "marketing",
+        "type": "script",
+        "risk_level": "high",
+        "inline_patterns": [
+            "twq('init'",
+            "twq('track'",
+            "!function(e,t,n,s,u,a"
+        ],
+        "description": "Twitter/X advertising pixel for conversion tracking."
+    },
+    {
+        "domain_pattern": "t.co/i/adsct",
+        "provider": "Twitter/X Pixel",
+        "category": "marketing",
+        "type": "pixel",
+        "risk_level": "high",
+        "inline_patterns": [],
+        "description": "Twitter click tracking pixel."
+    },
+    {
+        "domain_pattern": "sc-static.net",
+        "provider": "Snapchat Pixel",
+        "category": "marketing",
+        "type": "script",
+        "risk_level": "high",
+        "inline_patterns": [
+            "snaptr('init'",
+            "snaptr('track'"
+        ],
+        "description": "Snapchat advertising pixel for conversion tracking."
+    },
+    {
+        "domain_pattern": "ct.pinterest.com",
+        "provider": "Pinterest Tag",
+        "category": "marketing",
+        "type": "script",
+        "risk_level": "high",
+        "inline_patterns": [
+            "pintrk('load'",
+            "pintrk('page'"
+        ],
+        "description": "Pinterest conversion tracking tag."
+    },
+    {
+        "domain_pattern": "static.criteo.net",
+        "provider": "Criteo",
+        "category": "marketing",
+        "type": "script",
+        "risk_level": "high",
+        "inline_patterns": [
+            "window.criteo_q",
+            "Criteo.events"
+        ],
+        "description": "Criteo retargeting and dynamic display ads."
+    },
+    {
+        "domain_pattern": "adroll.com",
+        "provider": "AdRoll",
+        "category": "marketing",
+        "type": "script",
+        "risk_level": "high",
+        "inline_patterns": [
+            "__adroll",
+            "_adroll_conversion"
+        ],
+        "description": "AdRoll retargeting and prospecting platform."
+    },
+    {
+        "domain_pattern": "a.adroll.com",
+        "provider": "AdRoll Pixel",
+        "category": "marketing",
+        "type": "pixel",
+        "risk_level": "high",
+        "inline_patterns": [],
+        "description": "AdRoll tracking pixel endpoint."
+    },
+    {
+        "domain_pattern": "doubleclick.net",
+        "provider": "DoubleClick / Google Ads",
+        "category": "marketing",
+        "type": "script",
+        "risk_level": "high",
+        "inline_patterns": [
+            "googletag.pubads()",
+            "googletag.defineSlot"
+        ],
+        "description": "Google display ad serving and remarketing."
+    },
+    {
+        "domain_pattern": "adservice.google.com",
+        "provider": "Google Ads",
+        "category": "marketing",
+        "type": "script",
+        "risk_level": "high",
+        "inline_patterns": [
+            "google_conversion_id",
+            "google_remarketing_only"
+        ],
+        "description": "Google Ads conversion and remarketing tag."
+    },
+    {
+        "domain_pattern": "bat.bing.com",
+        "provider": "Microsoft Advertising (UET)",
+        "category": "marketing",
+        "type": "script",
+        "risk_level": "high",
+        "inline_patterns": [
+            "waq.push(",
+            "window.uetq"
+        ],
+        "description": "Microsoft Universal Event Tracking for Bing Ads."
+    },
+    {
+        "domain_pattern": "a.quora.com",
+        "provider": "Quora Pixel",
+        "category": "marketing",
+        "type": "script",
+        "risk_level": "high",
+        "inline_patterns": [
+            "qp('track'",
+            "qp('init'",
+            "!function(q,e,v,n,t,s"
+        ],
+        "description": "Quora advertising pixel for conversion tracking."
+    },
+    {
+        "domain_pattern": "alb.reddit.com",
+        "provider": "Reddit Pixel",
+        "category": "marketing",
+        "type": "script",
+        "risk_level": "high",
+        "inline_patterns": [
+            "rdt('init'",
+            "rdt('track'",
+            "!function(w,d"
+        ],
+        "description": "Reddit advertising pixel."
+    },
+    {
+        "domain_pattern": "aax.amazon-adsystem.com",
+        "provider": "Amazon Ads",
+        "category": "marketing",
+        "type": "script",
+        "risk_level": "high",
+        "inline_patterns": [
+            "amzn_assoc",
+            "amzn_assoc_placement"
+        ],
+        "description": "Amazon Associates and advertising tracking."
+    },
+    {
+        "domain_pattern": "assoc-amazon.com",
+        "provider": "Amazon Associates",
+        "category": "marketing",
+        "type": "script",
+        "risk_level": "high",
+        "inline_patterns": [],
+        "description": "Amazon Associates affiliate tracking."
+    },
+    {
+        "domain_pattern": "static.hotjar.com",
+        "provider": "Hotjar",
+        "category": "analytics",
+        "type": "script",
+        "risk_level": "medium",
+        "inline_patterns": [
+            "hjSiteSettings",
+            "_hjSettings",
+            "hjid=",
+            "hjsv="
+        ],
+        "description": "Heatmaps, session recordings, and user feedback analytics."
+    },
+    {
+        "domain_pattern": "clarity.microsoft.com",
+        "provider": "Microsoft Clarity",
+        "category": "analytics",
+        "type": "script",
+        "risk_level": "medium",
+        "inline_patterns": [
+            "clarity(",
+            "clarity('set'",
+            "clarity('identify'"
+        ],
+        "description": "Free heatmap and session recording analytics by Microsoft."
+    },
+    {
+        "domain_pattern": "cdn.mxpnl.com",
+        "provider": "Mixpanel",
+        "category": "analytics",
+        "type": "script",
+        "risk_level": "medium",
+        "inline_patterns": [
+            "mixpanel.init(",
+            "mixpanel.track("
+        ],
+        "description": "Product analytics tracking user actions and funnels."
+    },
+    {
+        "domain_pattern": "cdn.segment.com",
+        "provider": "Segment",
+        "category": "analytics",
+        "type": "script",
+        "risk_level": "medium",
+        "inline_patterns": [
+            "analytics.track(",
+            "analytics.identify(",
+            "analytics.page("
+        ],
+        "description": "Customer data platform routing events to multiple destinations."
+    },
+    {
+        "domain_pattern": "cdn.heapanalytics.com",
+        "provider": "Heap",
+        "category": "analytics",
+        "type": "script",
+        "risk_level": "medium",
+        "inline_patterns": [
+            "heap.load(",
+            "heap.track(",
+            "heap.identify("
+        ],
+        "description": "Automatic event capture product analytics."
+    },
+    {
+        "domain_pattern": "cdn.fullstory.com",
+        "provider": "FullStory",
+        "category": "analytics",
+        "type": "script",
+        "risk_level": "medium",
+        "inline_patterns": [
+            "FS.identify(",
+            "FS.setUserVars(",
+            "FS.getCurrentSessionURL"
+        ],
+        "description": "Digital experience analytics with session replay."
+    },
+    {
+        "domain_pattern": "cdn.amplitude.com",
+        "provider": "Amplitude",
+        "category": "analytics",
+        "type": "script",
+        "risk_level": "medium",
+        "inline_patterns": [
+            "amplitude.init(",
+            "amplitude.logEvent("
+        ],
+        "description": "Product analytics and event tracking platform."
+    },
+    {
+        "domain_pattern": "cdn.pendo.io",
+        "provider": "Pendo",
+        "category": "analytics",
+        "type": "script",
+        "risk_level": "medium",
+        "inline_patterns": [
+            "pendo.initialize(",
+            "pendo.track("
+        ],
+        "description": "Product analytics and in-app guidance platform."
+    },
+    {
+        "domain_pattern": "app.posthog.com",
+        "provider": "PostHog",
+        "category": "analytics",
+        "type": "script",
+        "risk_level": "medium",
+        "inline_patterns": [
+            "posthog.init(",
+            "posthog.capture("
+        ],
+        "description": "Open-source product analytics, session replay, and feature flags."
+    },
+    {
+        "domain_pattern": "us.posthog.com",
+        "provider": "PostHog",
+        "category": "analytics",
+        "type": "script",
+        "risk_level": "medium",
+        "inline_patterns": [],
+        "description": "PostHog US region endpoint."
+    },
+    {
+        "domain_pattern": "widget.intercom.io",
+        "provider": "Intercom",
+        "category": "functional",
+        "type": "script",
+        "risk_level": "low",
+        "inline_patterns": [
+            "Intercom('boot'",
+            "Intercom('trackEvent'",
+            "intercomSettings"
+        ],
+        "description": "Customer messaging and chat widget."
+    },
+    {
+        "domain_pattern": "js.intercomcdn.com",
+        "provider": "Intercom",
+        "category": "functional",
+        "type": "script",
+        "risk_level": "low",
+        "inline_patterns": [],
+        "description": "Intercom CDN for chat widget assets."
+    },
+    {
+        "domain_pattern": "client.crisp.chat",
+        "provider": "Crisp",
+        "category": "functional",
+        "type": "script",
+        "risk_level": "low",
+        "inline_patterns": [
+            "$crisp.push(",
+            "CRISP_WEBSITE_ID"
+        ],
+        "description": "Live chat and customer support widget."
+    },
+    {
+        "domain_pattern": "js.hs-scripts.com",
+        "provider": "HubSpot",
+        "category": "functional",
+        "type": "script",
+        "risk_level": "low",
+        "inline_patterns": [
+            "_hsq.push(",
+            "hsTracker"
+        ],
+        "description": "HubSpot tracking, live chat, and marketing automation."
+    },
+    {
+        "domain_pattern": "js.hs-analytics.net",
+        "provider": "HubSpot Analytics",
+        "category": "analytics",
+        "type": "script",
+        "risk_level": "medium",
+        "inline_patterns": [],
+        "description": "HubSpot web analytics endpoint."
+    },
+    {
+        "domain_pattern": "js.drift.com",
+        "provider": "Drift",
+        "category": "functional",
+        "type": "script",
+        "risk_level": "low",
+        "inline_patterns": [
+            "drift.on(",
+            "drift.track("
+        ],
+        "description": "Conversational marketing and sales chatbot."
+    },
+    {
+        "domain_pattern": "static.zdassets.com",
+        "provider": "Zendesk",
+        "category": "functional",
+        "type": "script",
+        "risk_level": "low",
+        "inline_patterns": [
+            "zE('webWidget:",
+            "zE.activate"
+        ],
+        "description": "Zendesk customer support widget."
+    },
+    {
+        "domain_pattern": "assets.freshdesk.com",
+        "provider": "Freshdesk",
+        "category": "functional",
+        "type": "script",
+        "risk_level": "low",
+        "inline_patterns": [
+            "FreshworksWidget("
+        ],
+        "description": "Freshdesk support widget."
+    },
+    {
+        "domain_pattern": "cdn.livechatinc.com",
+        "provider": "LiveChat",
+        "category": "functional",
+        "type": "script",
+        "risk_level": "low",
+        "inline_patterns": [
+            "LiveChatWidget",
+            "__lc.license"
+        ],
+        "description": "LiveChat customer service widget."
+    },
+    {
+        "domain_pattern": "service.force.com",
+        "provider": "Salesforce Chat",
+        "category": "functional",
+        "type": "script",
+        "risk_level": "low",
+        "inline_patterns": [
+            "embedded_svc.settings"
+        ],
+        "description": "Salesforce Service Cloud live agent chat."
+    },
+    {
+        "domain_pattern": "code.tidio.co",
+        "provider": "Tidio",
+        "category": "functional",
+        "type": "script",
+        "risk_level": "low",
+        "inline_patterns": [
+            "tidioChat"
+        ],
+        "description": "Tidio live chat and chatbot widget."
+    },
+    {
+        "domain_pattern": "jssdkcd.mparticle.com",
+        "provider": "mParticle",
+        "category": "marketing",
+        "type": "script",
+        "risk_level": "high",
+        "inline_patterns": [
+            "mParticle.init(",
+            "mParticle.logEvent("
+        ],
+        "description": "Customer data platform collecting and forwarding user data."
+    },
+    {
+        "domain_pattern": "tags.tiqcdn.com",
+        "provider": "Tealium",
+        "category": "marketing",
+        "type": "script",
+        "risk_level": "high",
+        "inline_patterns": [
+            "utag.view(",
+            "utag.link(",
+            "utag_data"
+        ],
+        "description": "Enterprise tag management and customer data hub."
+    },
+    {
+        "domain_pattern": "cdn.jsdelivr.net/npm/@segment/analytics-next",
+        "provider": "Segment (Analytics Next)",
+        "category": "analytics",
+        "type": "script",
+        "risk_level": "medium",
+        "inline_patterns": [],
+        "description": "Segment Analytics Next generation SDK."
+    },
+    {
+        "domain_pattern": "tag.googleapis.com",
+        "provider": "Google Ads",
+        "category": "marketing",
+        "type": "script",
+        "risk_level": "high",
+        "inline_patterns": [],
+        "description": "Google Ads tag delivery endpoint."
+    },
+    {
+        "domain_pattern": "ads.pubmatic.com",
+        "provider": "PubMatic",
+        "category": "marketing",
+        "type": "script",
+        "risk_level": "high",
+        "inline_patterns": [],
+        "description": "Programmatic advertising platform."
+    },
+    {
+        "domain_pattern": "ib.adnxs.com",
+        "provider": "Xandr (AppNexus)",
+        "category": "marketing",
+        "type": "script",
+        "risk_level": "high",
+        "inline_patterns": [],
+        "description": "Programmatic advertising and audience targeting."
+    },
+    {
+        "domain_pattern": "cdn.taboola.com",
+        "provider": "Taboola",
+        "category": "marketing",
+        "type": "script",
+        "risk_level": "high",
+        "inline_patterns": [
+            "_taboola.push("
+        ],
+        "description": "Content discovery and native advertising platform."
+    },
+    {
+        "domain_pattern": "cdn.outbrain.com",
+        "provider": "Outbrain",
+        "category": "marketing",
+        "type": "script",
+        "risk_level": "high",
+        "inline_patterns": [
+            "OB_ADV_ID"
+        ],
+        "description": "Content recommendation and native advertising."
+    },
+    {
+        "domain_pattern": "player.vimeo.com",
+        "provider": "Vimeo",
+        "category": "functional",
+        "type": "iframe",
+        "risk_level": "low",
+        "inline_patterns": [],
+        "description": "Vimeo video player embed."
+    },
+    {
+        "domain_pattern": "youtube.com/embed/",
+        "provider": "YouTube",
+        "category": "functional",
+        "type": "iframe",
+        "risk_level": "low",
+        "inline_patterns": [],
+        "description": "YouTube video embed with tracking capabilities."
+    },
+    {
+        "domain_pattern": "www.youtube.com/iframe_api",
+        "provider": "YouTube",
+        "category": "functional",
+        "type": "script",
+        "risk_level": "low",
+        "inline_patterns": [
+            "onYouTubeIframeAPIReady"
+        ],
+        "description": "YouTube iframe API for embedded video control."
+    },
+    {
+        "domain_pattern": "www.googletagmanager.com/gtag/js",
+        "provider": "Google Tag Manager (gtag.js)",
+        "category": "marketing",
+        "type": "script",
+        "risk_level": "high",
+        "inline_patterns": [],
+        "description": "Google's global site tag loading script."
+    },
+    {
+        "domain_pattern": "chimpstatic.com",
+        "provider": "Mailchimp",
+        "category": "marketing",
+        "type": "script",
+        "risk_level": "high",
+        "inline_patterns": [
+            "mcjs"
+        ],
+        "description": "Mailchimp connected site tracking."
+    },
+    {
+        "domain_pattern": "list-manage.com",
+        "provider": "Mailchimp",
+        "category": "marketing",
+        "type": "pixel",
+        "risk_level": "high",
+        "inline_patterns": [],
+        "description": "Mailchimp email tracking pixel."
+    },
+    {
+        "domain_pattern": "trk.klaviyo.com",
+        "provider": "Klaviyo",
+        "category": "marketing",
+        "type": "script",
+        "risk_level": "high",
+        "inline_patterns": [
+            "klaviyo.identify(",
+            "_learnq.push("
+        ],
+        "description": "Klaviyo email and SMS marketing tracking."
+    },
+    {
+        "domain_pattern": "static.klaviyo.com",
+        "provider": "Klaviyo",
+        "category": "marketing",
+        "type": "script",
+        "risk_level": "high",
+        "inline_patterns": [],
+        "description": "Klaviyo JavaScript SDK."
+    },
+    {
+        "domain_pattern": "connect.mailerlite.com",
+        "provider": "MailerLite",
+        "category": "marketing",
+        "type": "script",
+        "risk_level": "high",
+        "inline_patterns": [
+            "ml_account"
+        ],
+        "description": "MailerLite email marketing tracking."
+    },
+    {
+        "domain_pattern": "browser.sentry-cdn.com",
+        "provider": "Sentry",
+        "category": "analytics",
+        "type": "script",
+        "risk_level": "medium",
+        "inline_patterns": [
+            "Sentry.init("
+        ],
+        "description": "Error tracking and performance monitoring."
+    },
+    {
+        "domain_pattern": "cdn.logrocket.io",
+        "provider": "LogRocket",
+        "category": "analytics",
+        "type": "script",
+        "risk_level": "medium",
+        "inline_patterns": [
+            "LogRocket.init(",
+            "LogRocket.identify("
+        ],
+        "description": "Session replay and error tracking for web apps."
+    },
+    {
+        "domain_pattern": "cdn.scarabresearch.com",
+        "provider": "Emarsys",
+        "category": "marketing",
+        "type": "script",
+        "risk_level": "high",
+        "inline_patterns": [
+            "ScarabQueue.push("
+        ],
+        "description": "Emarsys customer engagement and personalization."
+    },
+    {
+        "domain_pattern": "cdn.evgnet.com",
+        "provider": "Evergage",
+        "category": "marketing",
+        "type": "script",
+        "risk_level": "high",
+        "inline_patterns": [
+            "Evergage.init("
+        ],
+        "description": "Salesforce Interaction Studio personalization."
+    },
+    {
+        "domain_pattern": "cdn.bizible.com",
+        "provider": "Bizible (Demandbase)",
+        "category": "analytics",
+        "type": "script",
+        "risk_level": "medium",
+        "inline_patterns": [
+            "bizible"
+        ],
+        "description": "B2B marketing attribution and analytics."
+    }
+]

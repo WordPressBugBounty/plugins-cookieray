@@ -1,0 +1,1010 @@
+[
+  {
+    "name": "_ga",
+    "provider": "Google Analytics",
+    "category": "analytical",
+    "duration": "400 days",
+    "duration_seconds": 34560000,
+    "description": "Registers a unique ID used to generate statistical data on how visitors use the website.",
+    "setter_patterns": ["googletagmanager.com/gtag", "google-analytics.com/analytics.js", "google-analytics.com/ga.js"]
+  },
+  {
+    "name": "_ga_",
+    "is_regex": true,
+    "pattern": "^_ga_",
+    "provider": "Google Analytics 4",
+    "category": "analytical",
+    "duration": "400 days",
+    "duration_seconds": 34560000,
+    "description": "GA4 session cookie used to persist session state.",
+    "setter_patterns": ["googletagmanager.com/gtag"]
+  },
+  {
+    "name": "_gid",
+    "provider": "Google Analytics",
+    "category": "analytical",
+    "duration": "24 hours",
+    "duration_seconds": 86400,
+    "description": "Registers a unique ID used to generate statistical data on how visitors use the website.",
+    "setter_patterns": ["google-analytics.com/analytics.js", "google-analytics.com/ga.js"]
+  },
+  {
+    "name": "_gat",
+    "provider": "Google Analytics",
+    "category": "analytical",
+    "duration": "1 minute",
+    "duration_seconds": 60,
+    "description": "Used by Google Analytics to throttle request rate.",
+    "setter_patterns": ["google-analytics.com/analytics.js", "google-analytics.com/ga.js"]
+  },
+  {
+    "name": "_gcl_au",
+    "provider": "Google AdSense",
+    "category": "marketing",
+    "duration": "3 months",
+    "duration_seconds": 7776000,
+    "description": "Used by Google AdSense for experimenting with advertisement efficiency.",
+    "setter_patterns": ["googleadservices.com", "googletagmanager.com/gtag/destination", "google-analytics.com/g/collect"]
+  },
+  {
+    "name": "NID",
+    "is_third_party": true,
+    "provider": "Google",
+    "category": "marketing",
+    "duration": "6 months",
+    "duration_seconds": 15552000,
+    "description": "Used by Google for preferences and showing personalized ads.",
+    "setter_patterns": ["accounts.google.com/gsi", "apis.google.com/js/platform.js"]
+  },
+  {
+    "name": "IDE",
+    "is_third_party": true,
+    "provider": "Google DoubleClick",
+    "category": "marketing",
+    "duration": "1 year",
+    "duration_seconds": 31536000,
+    "description": "Used by Google DoubleClick to measure conversions and display targeted ads.",
+    "setter_patterns": ["doubleclick.net"]
+  },
+  {
+    "name": "DSID",
+    "is_third_party": true,
+    "provider": "Google DoubleClick",
+    "category": "marketing",
+    "duration": "2 weeks",
+    "duration_seconds": 1209600,
+    "description": "Used by Google DoubleClick to link activity across devices.",
+    "setter_patterns": ["doubleclick.net"]
+  },
+  {
+    "name": "_fbp",
+    "provider": "Facebook",
+    "category": "marketing",
+    "duration": "3 months",
+    "duration_seconds": 7776000,
+    "description": "Used by Facebook to deliver advertising when visitors interact with Facebook products.",
+    "setter_patterns": ["connect.facebook.net", "facebook.com/tr"]
+  },
+  {
+    "name": "_fbc",
+    "provider": "Facebook",
+    "category": "marketing",
+    "duration": "3 months",
+    "duration_seconds": 7776000,
+    "description": "Used by Facebook to store the last click that brought the visitor to the site.",
+    "setter_patterns": ["connect.facebook.net", "facebook.com/tr"]
+  },
+  {
+    "name": "fr",
+    "provider": "Facebook",
+    "category": "marketing",
+    "duration": "3 months",
+    "duration_seconds": 7776000,
+    "description": "Used by Facebook to deliver advertising and measure its effectiveness.",
+    "setter_patterns": ["connect.facebook.net", "facebook.com/tr"]
+  },
+  {
+    "name": "VISITOR_INFO1_LIVE",
+    "provider": "YouTube",
+    "category": "marketing",
+    "duration": "6 months",
+    "duration_seconds": 15552000,
+    "description": "Tries to estimate the user's bandwidth on pages with integrated YouTube videos.",
+    "setter_patterns": ["youtube.com", "youtube-nocookie.com"]
+  },
+  {
+    "name": "YSC",
+    "provider": "YouTube",
+    "category": "marketing",
+    "duration": "Session",
+    "duration_seconds": 0,
+    "description": "Registers a unique ID to keep statistics of the videos watched by the user.",
+    "setter_patterns": ["youtube.com", "youtube-nocookie.com"]
+  },
+  {
+    "name": "PREF",
+    "provider": "YouTube",
+    "category": "marketing",
+    "duration": "8 months",
+    "duration_seconds": 20736000,
+    "description": "Stores user preferences related to YouTube.",
+    "setter_patterns": ["youtube.com/embed", "youtube-nocookie.com/embed"]
+  },
+  {
+    "name": "CONSENT",
+    "provider": "Google",
+    "category": "necessary",
+    "duration": "2 years",
+    "duration_seconds": 63072000,
+    "description": "Stores the user's cookie consent state for the current domain.",
+    "setter_patterns": ["youtube.com/embed", "youtube-nocookie.com/embed", "accounts.google.com/gsi"]
+  },
+  {
+    "name": "bcookie",
+    "provider": "LinkedIn",
+    "category": "marketing",
+    "duration": "1 year",
+    "duration_seconds": 31536000,
+    "description": "Used by LinkedIn to identify the browser.",
+    "setter_patterns": ["linkedin.com", "licdn.com"]
+  },
+  {
+    "name": "lidc",
+    "provider": "LinkedIn",
+    "category": "marketing",
+    "duration": "24 hours",
+    "duration_seconds": 86400,
+    "description": "Used by LinkedIn for routing.",
+    "setter_patterns": ["linkedin.com"]
+  },
+  {
+    "name": "bscookie",
+    "provider": "LinkedIn",
+    "category": "marketing",
+    "duration": "1 year",
+    "duration_seconds": 31536000,
+    "description": "Used by LinkedIn to remember that a logged-in user is verified by two-factor authentication.",
+    "setter_patterns": ["linkedin.com"]
+  },
+  {
+    "name": "UserMatchHistory",
+    "provider": "LinkedIn",
+    "category": "marketing",
+    "duration": "1 month",
+    "duration_seconds": 2592000,
+    "description": "Used by LinkedIn Ads ID syncs.",
+    "setter_patterns": ["linkedin.com"]
+  },
+  {
+    "name": "hubspotutk",
+    "provider": "HubSpot",
+    "category": "analytical",
+    "duration": "6 months",
+    "duration_seconds": 15552000,
+    "description": "Keeps track of a visitor's identity and is passed to HubSpot on form submission.",
+    "setter_patterns": ["hubspot.com", "hs-scripts.com", "hs-analytics.net"]
+  },
+  {
+    "name": "__hssc",
+    "provider": "HubSpot",
+    "category": "analytical",
+    "duration": "30 minutes",
+    "duration_seconds": 1800,
+    "description": "Keeps track of sessions.",
+    "setter_patterns": ["hubspot.com", "hs-analytics.net"]
+  },
+  {
+    "name": "__hstc",
+    "provider": "HubSpot",
+    "category": "analytical",
+    "duration": "6 months",
+    "duration_seconds": 15552000,
+    "description": "Main HubSpot cookie for tracking visitors.",
+    "setter_patterns": ["hubspot.com", "hs-analytics.net"]
+  },
+  {
+    "name": "__hssrc",
+    "provider": "HubSpot",
+    "category": "analytical",
+    "duration": "Session",
+    "duration_seconds": 0,
+    "description": "Identifies if cookies have been reset.",
+    "setter_patterns": ["hubspot.com"]
+  },
+  {
+    "name": "__stripe_mid",
+    "provider": "Stripe",
+    "category": "necessary",
+    "duration": "1 year",
+    "duration_seconds": 31536000,
+    "description": "Stripe fraud prevention cookie.",
+    "setter_patterns": ["stripe.com", "js.stripe.com"]
+  },
+  {
+    "name": "__stripe_sid",
+    "provider": "Stripe",
+    "category": "necessary",
+    "duration": "30 minutes",
+    "duration_seconds": 1800,
+    "description": "Stripe session fraud prevention cookie.",
+    "setter_patterns": ["stripe.com", "js.stripe.com"]
+  },
+  {
+    "name": "__cf_bm",
+    "provider": "Cloudflare",
+    "category": "necessary",
+    "duration": "30 minutes",
+    "duration_seconds": 1800,
+    "description": "Cloudflare bot management cookie.",
+    "setter_patterns": ["cloudflare.com"]
+  },
+  {
+    "name": "cf_clearance",
+    "provider": "Cloudflare",
+    "category": "necessary",
+    "duration": "30 minutes",
+    "duration_seconds": 1800,
+    "description": "Cloudflare clearance cookie after solving challenge.",
+    "setter_patterns": ["cloudflare.com"]
+  },
+  {
+    "name": "__cfduid",
+    "provider": "Cloudflare",
+    "category": "necessary",
+    "duration": "1 month",
+    "duration_seconds": 2592000,
+    "description": "Used by Cloudflare to identify trusted web traffic.",
+    "setter_patterns": ["cloudflare.com"]
+  },
+  {
+    "name": "wordpress_logged_in_",
+    "is_regex": true,
+    "pattern": "^wordpress_logged_in_",
+    "provider": "WordPress",
+    "category": "necessary",
+    "duration": "Session",
+    "duration_seconds": 0,
+    "description": "Used by WordPress to indicate the user is logged in.",
+    "setter_patterns": []
+  },
+  {
+    "name": "wordpress_test_cookie",
+    "provider": "WordPress",
+    "category": "necessary",
+    "duration": "Session",
+    "duration_seconds": 0,
+    "description": "Used by WordPress to test if the browser accepts cookies.",
+    "setter_patterns": []
+  },
+  {
+    "name": "wp-settings-",
+    "is_regex": true,
+    "pattern": "^wp-settings-",
+    "provider": "WordPress",
+    "category": "functional",
+    "duration": "1 year",
+    "duration_seconds": 31536000,
+    "description": "Persists a logged-in user's admin interface preferences.",
+    "setter_patterns": []
+  },
+  {
+    "name": "wp-settings-time-",
+    "is_regex": true,
+    "pattern": "^wp-settings-time-",
+    "provider": "WordPress",
+    "category": "functional",
+    "duration": "1 year",
+    "duration_seconds": 31536000,
+    "description": "Persists a logged-in user's admin interface preferences.",
+    "setter_patterns": []
+  },
+  {
+    "name": "comment_author_",
+    "is_regex": true,
+    "pattern": "^comment_author_",
+    "provider": "WordPress",
+    "category": "functional",
+    "duration": "347 days",
+    "duration_seconds": 29980800,
+    "description": "Saves the comment author's name for subsequent comments.",
+    "setter_patterns": []
+  },
+  {
+    "name": "comment_author_email_",
+    "is_regex": true,
+    "pattern": "^comment_author_email_",
+    "provider": "WordPress",
+    "category": "functional",
+    "duration": "347 days",
+    "duration_seconds": 29980800,
+    "description": "Saves the comment author's email for subsequent comments.",
+    "setter_patterns": []
+  },
+  {
+    "name": "comment_author_url_",
+    "is_regex": true,
+    "pattern": "^comment_author_url_",
+    "provider": "WordPress",
+    "category": "functional",
+    "duration": "347 days",
+    "duration_seconds": 29980800,
+    "description": "Saves the comment author's URL for subsequent comments.",
+    "setter_patterns": []
+  },
+  {
+    "name": "woocommerce_cart_hash",
+    "provider": "WooCommerce",
+    "category": "necessary",
+    "duration": "Session",
+    "duration_seconds": 0,
+    "description": "Used by WooCommerce to detect cart changes.",
+    "setter_patterns": []
+  },
+  {
+    "name": "woocommerce_items_in_cart",
+    "provider": "WooCommerce",
+    "category": "necessary",
+    "duration": "Session",
+    "duration_seconds": 0,
+    "description": "Used by WooCommerce to detect cart changes.",
+    "setter_patterns": []
+  },
+  {
+    "name": "wp_woocommerce_session_",
+    "is_regex": true,
+    "pattern": "^wp_woocommerce_session_",
+    "provider": "WooCommerce",
+    "category": "necessary",
+    "duration": "2 days",
+    "duration_seconds": 172800,
+    "description": "Contains a unique code for each customer so WooCommerce can find the cart.",
+    "setter_patterns": []
+  },
+  {
+    "name": "PHPSESSID",
+    "provider": "PHP",
+    "category": "necessary",
+    "duration": "Session",
+    "duration_seconds": 0,
+    "description": "Preserves user session state across page requests.",
+    "setter_patterns": []
+  },
+  {
+    "name": "AWSALB",
+    "provider": "Amazon Web Services",
+    "category": "necessary",
+    "duration": "7 days",
+    "duration_seconds": 604800,
+    "description": "AWS load balancer cookie used for application routing.",
+    "setter_patterns": ["amazonaws.com"]
+  },
+  {
+    "name": "AWSALBCORS",
+    "provider": "Amazon Web Services",
+    "category": "necessary",
+    "duration": "7 days",
+    "duration_seconds": 604800,
+    "description": "AWS load balancer CORS cookie.",
+    "setter_patterns": ["amazonaws.com"]
+  },
+  {
+    "name": "intercom-id-",
+    "is_regex": true,
+    "pattern": "^intercom-id-",
+    "provider": "Intercom",
+    "category": "functional",
+    "duration": "9 months",
+    "duration_seconds": 23328000,
+    "description": "Identifies visitors to Intercom's messenger product.",
+    "setter_patterns": ["intercom.io", "intercomcdn.com"]
+  },
+  {
+    "name": "intercom-session-",
+    "is_regex": true,
+    "pattern": "^intercom-session-",
+    "provider": "Intercom",
+    "category": "functional",
+    "duration": "7 days",
+    "duration_seconds": 604800,
+    "description": "Intercom session cookie.",
+    "setter_patterns": ["intercom.io"]
+  },
+  {
+    "name": "_hjid",
+    "provider": "Hotjar",
+    "category": "analytical",
+    "duration": "1 year",
+    "duration_seconds": 31536000,
+    "description": "Hotjar visitor identifier.",
+    "setter_patterns": ["hotjar.com", "static.hotjar.com"]
+  },
+  {
+    "name": "_hjSessionUser_",
+    "is_regex": true,
+    "pattern": "^_hjSessionUser_",
+    "provider": "Hotjar",
+    "category": "analytical",
+    "duration": "1 year",
+    "duration_seconds": 31536000,
+    "description": "Hotjar user session cookie.",
+    "setter_patterns": ["hotjar.com"]
+  },
+  {
+    "name": "_hjSession_",
+    "is_regex": true,
+    "pattern": "^_hjSession_",
+    "provider": "Hotjar",
+    "category": "analytical",
+    "duration": "30 minutes",
+    "duration_seconds": 1800,
+    "description": "Hotjar session cookie.",
+    "setter_patterns": ["hotjar.com"]
+  },
+  {
+    "name": "_hjAbsoluteSessionInProgress",
+    "provider": "Hotjar",
+    "category": "analytical",
+    "duration": "30 minutes",
+    "duration_seconds": 1800,
+    "description": "Hotjar session tracking.",
+    "setter_patterns": ["hotjar.com"]
+  },
+  {
+    "name": "ajs_anonymous_id",
+    "provider": "Segment",
+    "category": "analytical",
+    "duration": "1 year",
+    "duration_seconds": 31536000,
+    "description": "Anonymous visitor ID set by Segment analytics.",
+    "setter_patterns": ["segment.io", "segment.com"]
+  },
+  {
+    "name": "ajs_user_id",
+    "provider": "Segment",
+    "category": "analytical",
+    "duration": "1 year",
+    "duration_seconds": 31536000,
+    "description": "Identified user ID set by Segment analytics.",
+    "setter_patterns": ["segment.io"]
+  },
+  {
+    "name": "mp_",
+    "is_regex": true,
+    "pattern": "^mp_[a-f0-9]+_mixpanel",
+    "provider": "Mixpanel",
+    "category": "analytical",
+    "duration": "1 year",
+    "duration_seconds": 31536000,
+    "description": "Mixpanel analytics tracking cookie.",
+    "setter_patterns": ["mixpanel.com", "cdn.mxpnl.com", "mxpnl.com"]
+  },
+  {
+    "name": "__Secure-3PSID",
+    "provider": "Google",
+    "category": "marketing",
+    "duration": "2 years",
+    "duration_seconds": 63072000,
+    "description": "Used by Google for targeted advertising.",
+    "setter_patterns": ["google.com"]
+  },
+  {
+    "name": "SIDCC",
+    "provider": "Google",
+    "category": "marketing",
+    "duration": "3 months",
+    "duration_seconds": 7776000,
+    "description": "Google security cookie.",
+    "setter_patterns": ["google.com"]
+  },
+  {
+    "name": "AnalyticsSyncHistory",
+    "provider": "LinkedIn",
+    "category": "analytical",
+    "duration": "1 month",
+    "duration_seconds": 2592000,
+    "description": "Used by LinkedIn to store information about the time a sync took place.",
+    "setter_patterns": ["linkedin.com"]
+  },
+  {
+    "name": "li_gc",
+    "provider": "LinkedIn",
+    "category": "necessary",
+    "duration": "6 months",
+    "duration_seconds": 15552000,
+    "description": "LinkedIn cookie consent state.",
+    "setter_patterns": ["linkedin.com"]
+  },
+  {
+    "name": "test_cookie",
+    "provider": "DoubleClick",
+    "category": "marketing",
+    "duration": "15 minutes",
+    "duration_seconds": 900,
+    "description": "Used by DoubleClick to check if the browser supports cookies.",
+    "setter_patterns": ["doubleclick.net"]
+  },
+  {
+    "name": "sbjs_",
+    "is_regex": true,
+    "pattern": "^sbjs_",
+    "provider": "Source Buster JS",
+    "category": "analytical",
+    "duration": "6 months",
+    "duration_seconds": 15552000,
+    "description": "Source Buster JS traffic source attribution cookie. Tracks visitor's first/current marketing source for analytics.",
+    "setter_patterns": []
+  },
+  {
+    "name": "sbjs_session",
+    "provider": "Source Buster JS",
+    "category": "analytical",
+    "duration": "30 minutes",
+    "duration_seconds": 1800,
+    "description": "Session cookie tracking the current session for Source Buster JS traffic attribution.",
+    "setter_patterns": []
+  },
+  {
+    "name": "tk_ai",
+    "provider": "TikTok",
+    "category": "marketing",
+    "duration": "1 year",
+    "duration_seconds": 31536000,
+    "description": "TikTok advertising cookie used to track user behaviour and measure ad conversion.",
+    "setter_patterns": ["analytics.tiktok.com", "ads.tiktok.com", "tiktok.com"]
+  },
+  {
+    "name": "tk_qs",
+    "provider": "TikTok",
+    "category": "marketing",
+    "duration": "Session",
+    "duration_seconds": 0,
+    "description": "TikTok session cookie used for ad targeting and conversion tracking.",
+    "setter_patterns": ["analytics.tiktok.com", "ads.tiktok.com"]
+  },
+  {
+    "name": "tk_or",
+    "provider": "TikTok",
+    "category": "marketing",
+    "duration": "5 years",
+    "duration_seconds": 157680000,
+    "description": "TikTok cookie used to track ad campaigns and origin of visitor.",
+    "setter_patterns": ["tiktok.com"]
+  },
+  {
+    "name": "_ttp",
+    "provider": "TikTok",
+    "category": "marketing",
+    "duration": "13 months",
+    "duration_seconds": 34164000,
+    "description": "TikTok pixel cookie used to measure conversions for TikTok advertising.",
+    "setter_patterns": ["analytics.tiktok.com"]
+  },
+  {
+    "name": "li_ad_master",
+    "provider": "LinkedIn Insight",
+    "category": "marketing",
+    "duration": "30 days",
+    "duration_seconds": 2592000,
+    "description": "LinkedIn Insight Tag cookie used for ad delivery and behaviour tracking.",
+    "setter_patterns": ["linkedin.com"]
+  },
+  {
+    "name": "AnalyticsSyncHistory",
+    "provider": "LinkedIn Insight",
+    "category": "marketing",
+    "duration": "30 days",
+    "duration_seconds": 2592000,
+    "description": "Used to store information about syncing analytics with LinkedIn Insight Tag.",
+    "setter_patterns": ["linkedin.com"]
+  },
+  {
+    "name": "UserMatchHistory",
+    "provider": "LinkedIn Insight",
+    "category": "marketing",
+    "duration": "30 days",
+    "duration_seconds": 2592000,
+    "description": "LinkedIn Ads ID syncing for user matching across services.",
+    "setter_patterns": ["linkedin.com"]
+  },
+  {
+    "name": "_clck",
+    "provider": "Microsoft Clarity",
+    "category": "analytical",
+    "duration": "1 year",
+    "duration_seconds": 31536000,
+    "description": "Microsoft Clarity user identifier cookie for session replay analytics.",
+    "setter_patterns": ["clarity.ms"]
+  },
+  {
+    "name": "_clsk",
+    "provider": "Microsoft Clarity",
+    "category": "analytical",
+    "duration": "1 day",
+    "duration_seconds": 86400,
+    "description": "Microsoft Clarity session cookie linking page interactions for replay.",
+    "setter_patterns": ["clarity.ms"]
+  },
+  {
+    "name": "CLID",
+    "provider": "Microsoft Clarity",
+    "category": "analytical",
+    "duration": "1 year",
+    "duration_seconds": 31536000,
+    "description": "Microsoft Clarity click ID cookie for session attribution.",
+    "setter_patterns": ["clarity.ms"]
+  },
+  {
+    "name": "MUID",
+    "provider": "Microsoft",
+    "category": "marketing",
+    "duration": "13 months",
+    "duration_seconds": 34164000,
+    "description": "Microsoft user identifier used for advertising and analytics across Bing/Microsoft sites.",
+    "setter_patterns": ["clarity.ms", "bing.com", "microsoft.com", "c.bing.com"]
+  },
+  {
+    "name": "ANONCHK",
+    "provider": "Microsoft",
+    "category": "marketing",
+    "duration": "10 minutes",
+    "duration_seconds": 600,
+    "description": "Microsoft Clarity / Bing analytics validation cookie.",
+    "setter_patterns": ["clarity.ms", "bing.com"]
+  },
+  {
+    "name": "MR",
+    "provider": "Microsoft",
+    "category": "marketing",
+    "duration": "7 days",
+    "duration_seconds": 604800,
+    "description": "Microsoft cookie used to refresh MUID identifier.",
+    "setter_patterns": ["clarity.ms", "bing.com"]
+  },
+  {
+    "name": "_uetvid",
+    "provider": "Bing UET",
+    "category": "marketing",
+    "duration": "13 months",
+    "duration_seconds": 34164000,
+    "description": "Bing Universal Event Tracking visitor cookie for ad conversion tracking.",
+    "setter_patterns": ["bing.com", "bat.bing.com"]
+  },
+  {
+    "name": "_uetsid",
+    "provider": "Bing UET",
+    "category": "marketing",
+    "duration": "1 day",
+    "duration_seconds": 86400,
+    "description": "Bing UET session cookie used to identify a session for ad reporting.",
+    "setter_patterns": ["bing.com", "bat.bing.com"]
+  },
+  {
+    "name": "_uetmsclkid",
+    "provider": "Bing UET",
+    "category": "marketing",
+    "duration": "90 days",
+    "duration_seconds": 7776000,
+    "description": "Bing UET click ID cookie used to attribute clicks to conversions.",
+    "setter_patterns": ["bing.com", "bat.bing.com"]
+  },
+  {
+    "name": "s_cc",
+    "provider": "Adobe Analytics",
+    "category": "analytical",
+    "duration": "Session",
+    "duration_seconds": 0,
+    "description": "Adobe Analytics cookie used to determine if cookies are enabled in the visitor's browser.",
+    "setter_patterns": ["adobe.com", "omtrdc.net"]
+  },
+  {
+    "name": "s_sq",
+    "provider": "Adobe Analytics",
+    "category": "analytical",
+    "duration": "Session",
+    "duration_seconds": 0,
+    "description": "Adobe Analytics cookie storing information about previous links clicked.",
+    "setter_patterns": ["adobe.com", "omtrdc.net"]
+  },
+  {
+    "name": "s_vi",
+    "provider": "Adobe Analytics",
+    "category": "analytical",
+    "duration": "2 years",
+    "duration_seconds": 63072000,
+    "description": "Adobe Analytics unique visitor identifier.",
+    "setter_patterns": ["adobe.com", "omtrdc.net", "2o7.net"]
+  },
+  {
+    "name": "demdex",
+    "provider": "Adobe Audience Manager",
+    "category": "marketing",
+    "duration": "180 days",
+    "duration_seconds": 15552000,
+    "description": "Adobe Audience Manager cross-device identifier for ad targeting.",
+    "setter_patterns": ["demdex.net"]
+  },
+  {
+    "name": "AMCV_",
+    "is_regex": true,
+    "pattern": "^AMCV_",
+    "provider": "Adobe Experience Cloud",
+    "category": "analytical",
+    "duration": "2 years",
+    "duration_seconds": 63072000,
+    "description": "Adobe Experience Cloud visitor ID service cookie used to identify a unique visitor.",
+    "setter_patterns": ["adobe.com"]
+  },
+  {
+    "name": "_pin_unauth",
+    "provider": "Pinterest",
+    "category": "marketing",
+    "duration": "1 year",
+    "duration_seconds": 31536000,
+    "description": "Pinterest tag cookie used to assign anonymous visitors a unique identifier.",
+    "setter_patterns": ["pinterest.com", "pinimg.com", "ct.pinterest.com"]
+  },
+  {
+    "name": "_epd",
+    "provider": "Pinterest",
+    "category": "marketing",
+    "duration": "1 year",
+    "duration_seconds": 31536000,
+    "description": "Pinterest cookie used to deliver targeted ads and measure conversions.",
+    "setter_patterns": ["pinterest.com", "pinimg.com", "ct.pinterest.com"]
+  },
+  {
+    "name": "_scid",
+    "provider": "Snapchat",
+    "category": "marketing",
+    "duration": "1 year",
+    "duration_seconds": 31536000,
+    "description": "Snapchat pixel cookie used to deliver and measure advertising.",
+    "setter_patterns": ["snapchat.com", "sc-static.net"]
+  },
+  {
+    "name": "sc_at",
+    "provider": "Snapchat",
+    "category": "marketing",
+    "duration": "1 year",
+    "duration_seconds": 31536000,
+    "description": "Snapchat cookie used for advertising attribution.",
+    "setter_patterns": ["snapchat.com"]
+  },
+  {
+    "name": "_rdt_uuid",
+    "provider": "Reddit",
+    "category": "marketing",
+    "duration": "3 months",
+    "duration_seconds": 7776000,
+    "description": "Reddit pixel cookie used for advertising and conversion tracking.",
+    "setter_patterns": ["reddit.com", "redditstatic.com"]
+  },
+  {
+    "name": "_hjSessionUser_",
+    "is_regex": true,
+    "pattern": "^_hjSessionUser_",
+    "provider": "Hotjar",
+    "category": "analytical",
+    "duration": "1 year",
+    "duration_seconds": 31536000,
+    "description": "Hotjar user identifier ensuring consistent data attribution across sessions.",
+    "setter_patterns": ["hotjar.com"]
+  },
+  {
+    "name": "_hjFirstSeen",
+    "provider": "Hotjar",
+    "category": "analytical",
+    "duration": "Session",
+    "duration_seconds": 0,
+    "description": "Hotjar cookie identifying a new user's first session.",
+    "setter_patterns": ["hotjar.com"]
+  },
+  {
+    "name": "_hjAbsoluteSessionInProgress",
+    "provider": "Hotjar",
+    "category": "analytical",
+    "duration": "30 minutes",
+    "duration_seconds": 1800,
+    "description": "Hotjar cookie counting the number of unique sessions.",
+    "setter_patterns": ["hotjar.com"]
+  },
+  {
+    "name": "wp-wpml_current_language",
+    "provider": "WPML",
+    "category": "functional",
+    "duration": "1 day",
+    "duration_seconds": 86400,
+    "description": "WPML multi-language plugin cookie storing the visitor's selected language.",
+    "setter_patterns": []
+  },
+  {
+    "name": "pll_language",
+    "provider": "Polylang",
+    "category": "functional",
+    "duration": "1 year",
+    "duration_seconds": 31536000,
+    "description": "Polylang multi-language plugin cookie storing the visitor's selected language.",
+    "setter_patterns": []
+  },
+  {
+    "name": "elementor",
+    "provider": "Elementor",
+    "category": "necessary",
+    "duration": "Session",
+    "duration_seconds": 0,
+    "description": "Elementor page builder cookie used to manage editor preview state. Necessary for Elementor pages.",
+    "setter_patterns": []
+  },
+  {
+    "name": "woolentor_already_views_count_product",
+    "provider": "WooLentor",
+    "category": "functional",
+    "duration": "Session",
+    "duration_seconds": 0,
+    "description": "WooLentor recently-viewed products counter for WooCommerce.",
+    "setter_patterns": []
+  },
+  {
+    "name": "wc_recently_viewed",
+    "provider": "WooCommerce",
+    "category": "functional",
+    "duration": "Session",
+    "duration_seconds": 0,
+    "description": "WooCommerce cookie tracking recently viewed products to enable the recently-viewed widget.",
+    "setter_patterns": []
+  },
+  {
+    "name": "yoast-ca-permission",
+    "provider": "Yoast",
+    "category": "necessary",
+    "duration": "1 year",
+    "duration_seconds": 31536000,
+    "description": "Yoast SEO plugin cookie storing dashboard permission preferences.",
+    "setter_patterns": []
+  },
+  {
+    "name": "_omappvp",
+    "provider": "OptinMonster",
+    "category": "functional",
+    "duration": "11 years",
+    "duration_seconds": 347155200,
+    "description": "OptinMonster cookie used to determine if a visitor is new or returning.",
+    "setter_patterns": ["optinmonster.com", "omappapi.com"]
+  },
+  {
+    "name": "_omappvs",
+    "provider": "OptinMonster",
+    "category": "functional",
+    "duration": "Session",
+    "duration_seconds": 0,
+    "description": "OptinMonster session cookie tracking visitor's pageviews.",
+    "setter_patterns": ["optinmonster.com", "omappapi.com"]
+  },
+  {
+    "name": "PHPSESSID",
+    "provider": "PHP",
+    "category": "necessary",
+    "duration": "Session",
+    "duration_seconds": 0,
+    "description": "Generic PHP session cookie required by many WordPress plugins for state management.",
+    "setter_patterns": []
+  },
+  {
+    "name": "mailchimp_landing_site",
+    "provider": "Mailchimp",
+    "category": "marketing",
+    "duration": "30 days",
+    "duration_seconds": 2592000,
+    "description": "Mailchimp cookie tracking the page where a visitor entered the site for campaign attribution.",
+    "setter_patterns": ["mailchimp.com", "list-manage.com"]
+  },
+  {
+    "name": "_mcid",
+    "provider": "Mailchimp",
+    "category": "marketing",
+    "duration": "1 year",
+    "duration_seconds": 31536000,
+    "description": "Mailchimp visitor identifier used for personalization and conversion tracking.",
+    "setter_patterns": ["mailchimp.com"]
+  },
+  {
+    "name": "_calendly_session",
+    "provider": "Calendly",
+    "category": "necessary",
+    "duration": "21 days",
+    "duration_seconds": 1814400,
+    "description": "Calendly session cookie required for booking widget functionality.",
+    "setter_patterns": ["calendly.com"]
+  },
+  {
+    "name": "intercom-id-",
+    "is_regex": true,
+    "pattern": "^intercom-id-",
+    "provider": "Intercom",
+    "category": "functional",
+    "duration": "9 months",
+    "duration_seconds": 23328000,
+    "description": "Intercom anonymous visitor identifier for messaging continuity.",
+    "setter_patterns": ["intercom.io"]
+  },
+  {
+    "name": "intercom-session-",
+    "is_regex": true,
+    "pattern": "^intercom-session-",
+    "provider": "Intercom",
+    "category": "functional",
+    "duration": "1 week",
+    "duration_seconds": 604800,
+    "description": "Intercom session cookie for messaging continuity.",
+    "setter_patterns": ["intercom.io"]
+  },
+  {
+    "name": "_dc_gtm_",
+    "is_regex": true,
+    "pattern": "^_dc_gtm_",
+    "provider": "Google Tag Manager",
+    "category": "analytical",
+    "duration": "1 minute",
+    "duration_seconds": 60,
+    "description": "Google Tag Manager throttling cookie limiting requests to gtm.js.",
+    "setter_patterns": ["googletagmanager.com/gtm.js"]
+  },
+  {
+    "name": "ajs_anonymous_id",
+    "provider": "Segment",
+    "category": "analytical",
+    "duration": "1 year",
+    "duration_seconds": 31536000,
+    "description": "Segment.io anonymous user identifier for cross-tool analytics.",
+    "setter_patterns": ["segment.io", "segment.com"]
+  },
+  {
+    "name": "ajs_user_id",
+    "provider": "Segment",
+    "category": "analytical",
+    "duration": "1 year",
+    "duration_seconds": 31536000,
+    "description": "Segment.io user identifier linking analytics across tools.",
+    "setter_patterns": ["segment.io", "segment.com"]
+  },
+  {
+    "name": "amplitude_id_",
+    "is_regex": true,
+    "pattern": "^amplitude_id_",
+    "provider": "Amplitude",
+    "category": "analytical",
+    "duration": "10 years",
+    "duration_seconds": 315360000,
+    "description": "Amplitude analytics user identifier cookie.",
+    "setter_patterns": ["amplitude.com"]
+  },
+  {
+    "name": "mp_",
+    "is_regex": true,
+    "pattern": "^mp_[a-f0-9]+_mixpanel$",
+    "provider": "Mixpanel",
+    "category": "analytical",
+    "duration": "1 year",
+    "duration_seconds": 31536000,
+    "description": "Mixpanel analytics distinct ID cookie linking events to a user.",
+    "setter_patterns": ["mixpanel.com", "cdn.mxpnl.com", "mxpnl.com"]
+  },
+  {
+    "name": "wordpress_test_cookie",
+    "provider": "WordPress",
+    "category": "necessary",
+    "duration": "Session",
+    "duration_seconds": 0,
+    "description": "WordPress cookie used to verify the browser supports cookies. Required for login.",
+    "setter_patterns": []
+  },
+  {
+    "name": "cookieray_consent",
+    "provider": "CookieRay",
+    "category": "necessary",
+    "duration": "180 days",
+    "duration_seconds": 15552000,
+    "description": "Stores the visitor's cookie consent choices. Required for the consent banner to function.",
+    "setter_patterns": []
+  }
+]

@@ -1,0 +1,2858 @@
+# Copyright (C) 2026 DevItems
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: CookieRay 1.0.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/cookieray\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-08-20T12:06:58+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: cookieray\n"
+
+#. Plugin Name of the plugin
+#: cookieray.php
+#: includes/class-admin.php:90
+#: includes/class-admin.php:91
+#: build/admin.js:438
+#: src/admin/components/layout/Sidebar.jsx:111
+#: build/admin.js:42747
+msgid "CookieRay"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: cookieray.php
+msgid "https://devitems.com/"
+msgstr ""
+
+#. Description of the plugin
+#: cookieray.php
+msgid "GDPR/CCPA-compliant cookie consent management with a premium admin UI and lightweight visitor banner."
+msgstr ""
+
+#. Author of the plugin
+#: cookieray.php
+msgid "DevItems"
+msgstr ""
+
+#. Author URI of the plugin
+#: cookieray.php
+msgid "https://devitems.com"
+msgstr ""
+
+#: includes/class-activator.php:61
+msgid "We value your privacy"
+msgstr ""
+
+#: includes/class-activator.php:62
+msgid "We use cookies to enhance your browsing experience, serve personalized content, and analyze our traffic."
+msgstr ""
+
+#: includes/class-activator.php:70
+msgid "Accept All"
+msgstr ""
+
+#: includes/class-activator.php:71
+#: includes/class-frontend.php:219
+msgid "Decline"
+msgstr ""
+
+#: includes/class-activator.php:72
+msgid "Preferences"
+msgstr ""
+
+#: includes/class-admin.php:41
+#: build/admin.js:438
+#: src/admin/components/layout/Sidebar.jsx:18
+#: src/admin/pages/CookieInventory.jsx:156
+#: build/admin.js:42654
+#: build/admin.js:46717
+msgid "Cookie Inventory"
+msgstr ""
+
+#: includes/class-admin.php:45
+#: build/admin.js:438
+#: src/admin/components/layout/Sidebar.jsx:19
+#: src/admin/pages/BannerDesign.jsx:96
+#: build/admin.js:42655
+#: build/admin.js:47739
+msgid "Banner Design"
+msgstr ""
+
+#: includes/class-admin.php:49
+#: build/admin.js:438
+#: src/admin/components/layout/Sidebar.jsx:20
+#: src/admin/pages/ConsentLogs.jsx:328
+#: build/admin.js:42656
+#: build/admin.js:48141
+msgid "Consent Logs"
+msgstr ""
+
+#: includes/class-admin.php:53
+#: build/admin.js:438
+#: src/admin/components/layout/Sidebar.jsx:21
+#: build/admin.js:42657
+msgid "Scan History"
+msgstr ""
+
+#: includes/class-admin.php:57
+#: includes/class-frontend.php:220
+#: build/admin.js:438
+#: src/admin/components/layout/Sidebar.jsx:25
+#: build/admin.js:42661
+msgid "Settings"
+msgstr ""
+
+#: includes/class-admin.php:66
+#: build/admin.js:438
+#: src/admin/components/layout/Sidebar.jsx:30
+#: build/admin.js:42666
+msgid "License"
+msgstr ""
+
+#: includes/class-admin.php:66
+#: build/admin.js:438
+#: src/admin/components/layout/Sidebar.jsx:30
+#: build/admin.js:42666
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: includes/class-admin.php:72
+#: build/admin.js:438
+#: build/admin.js:445
+#: src/admin/components/layout/Sidebar.jsx:34
+#: src/admin/pages/Support.jsx:10
+#: build/admin.js:42670
+#: build/admin.js:51351
+msgid "Support"
+msgstr ""
+
+#: includes/class-admin.php:107
+#: build/admin.js:438
+#: src/admin/components/layout/Sidebar.jsx:17
+#: src/admin/pages/Dashboard.jsx:49
+#: build/admin.js:42653
+#: build/admin.js:44192
+msgid "Dashboard"
+msgstr ""
+
+#: includes/class-deep-scanner.php:539
+msgid "Source Buster JS"
+msgstr ""
+
+#: includes/class-deep-scanner.php:546
+msgid "Inferred: Source Buster JS detected in page HTML"
+msgstr ""
+
+#: includes/class-frontend.php:209
+msgid "We respect your privacy"
+msgstr ""
+
+#: includes/class-frontend.php:210
+msgid "This website uses cookies to enhance your browsing experience and provide personalized content."
+msgstr ""
+
+#: includes/class-frontend.php:218
+msgid "Accept All Cookies"
+msgstr ""
+
+#: includes/class-frontend.php:255
+#: includes/rest/class-rest-banner.php:141
+#: build/admin.js:438
+#: src/admin/components/banner/BannerEditor.jsx:69
+#: build/admin.js:47044
+msgid "Strictly Necessary"
+msgstr ""
+
+#: includes/class-frontend.php:256
+#: includes/rest/class-rest-banner.php:142
+msgid "Required for the site to function. Cannot be disabled."
+msgstr ""
+
+#: includes/class-frontend.php:259
+#: includes/rest/class-rest-banner.php:145
+#: build/admin.js:438
+#: src/admin/components/banner/BannerEditor.jsx:70
+#: src/admin/components/dashboard/ActiveCookiesCard.jsx:34
+#: build/admin.js:43514
+#: build/admin.js:47045
+msgid "Analytics"
+msgstr ""
+
+#: includes/class-frontend.php:260
+#: includes/rest/class-rest-banner.php:146
+msgid "Help us understand how visitors use the site."
+msgstr ""
+
+#: includes/class-frontend.php:263
+#: includes/rest/class-rest-banner.php:149
+#: build/admin.js:438
+#: src/admin/components/banner/BannerEditor.jsx:71
+#: src/admin/components/cookies/CookieFilterBar.jsx:9
+#: src/admin/components/dashboard/ActiveCookiesCard.jsx:33
+#: build/admin.js:43513
+#: build/admin.js:44331
+#: build/admin.js:47046
+msgid "Functional"
+msgstr ""
+
+#: includes/class-frontend.php:264
+#: includes/rest/class-rest-banner.php:150
+msgid "Remember your preferences and enhance features."
+msgstr ""
+
+#: includes/class-frontend.php:267
+#: includes/rest/class-rest-banner.php:153
+#: build/admin.js:438
+#: src/admin/components/banner/BannerEditor.jsx:72
+#: src/admin/components/cookies/CookieFilterBar.jsx:10
+#: src/admin/components/dashboard/ActiveCookiesCard.jsx:35
+#: build/admin.js:43515
+#: build/admin.js:44332
+#: build/admin.js:47047
+msgid "Marketing"
+msgstr ""
+
+#: includes/class-frontend.php:268
+#: includes/rest/class-rest-banner.php:154
+msgid "Used to deliver personalized advertising."
+msgstr ""
+
+#: includes/rest/class-rest-banner.php:62
+#: includes/rest/class-rest-scanner.php:135
+#: includes/rest/class-rest-settings.php:59
+msgid "Invalid payload."
+msgstr ""
+
+#: includes/rest/class-rest-base.php:26
+msgid "You do not have permission to access this resource."
+msgstr ""
+
+#: includes/rest/class-rest-consent.php:133
+msgid "Invalid origin."
+msgstr ""
+
+#: includes/rest/class-rest-consent.php:140
+msgid "Too many requests."
+msgstr ""
+
+#: includes/rest/class-rest-consent.php:145
+msgid "Invalid consent status."
+msgstr ""
+
+#: includes/rest/class-rest-cookies.php:174
+msgid "Cookie name is required."
+msgstr ""
+
+#: includes/rest/class-rest-cookies.php:208
+msgid "Failed to create cookie."
+msgstr ""
+
+#: includes/rest/class-rest-cookies.php:221
+msgid "Cookie not found."
+msgstr ""
+
+#: includes/rest/class-rest-cookies.php:249
+msgid "Failed to update cookie."
+msgstr ""
+
+#: includes/rest/class-rest-cookies.php:272
+msgid "Failed to delete cookie."
+msgstr ""
+
+#: includes/rest/class-rest-cookies.php:323
+msgid "Unknown bulk action."
+msgstr ""
+
+#: includes/rest/class-rest-dashboard.php:74
+msgid "Consent banner is enabled"
+msgstr ""
+
+#: includes/rest/class-rest-dashboard.php:81
+msgid "Consent mode set to Strict"
+msgstr ""
+
+#: includes/rest/class-rest-dashboard.php:90
+msgid "All cookies categorized"
+msgstr ""
+
+#: includes/rest/class-rest-dashboard.php:97
+msgid "Privacy policy link configured"
+msgstr ""
+
+#: includes/rest/class-rest-dashboard.php:109
+msgid "Scan run within the last 30 days"
+msgstr ""
+
+#: includes/rest/class-rest-dashboard.php:116
+msgid "Consent expiry ≤ 13 months (CNIL)"
+msgstr ""
+
+#: includes/rest/class-rest-dashboard.php:123
+msgid "Google Consent Mode v2 enabled"
+msgstr ""
+
+#: includes/rest/class-rest-notifications.php:115
+msgid "Missing version."
+msgstr ""
+
+#: includes/rest/class-rest-notifications.php:120
+msgid "Cannot acknowledge a future version."
+msgstr ""
+
+#: includes/rest/class-rest-notifications.php:125
+msgid "Unknown changelog version."
+msgstr ""
+
+#: includes/rest/class-rest-scanner.php:96
+msgid "No scan found."
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/layout/Sidebar.jsx:114
+#: build/admin.js:42750
+msgid "Consent Manager"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/utils/time.js:12
+#: src/admin/utils/time.js:15
+#: build/admin.js:42815
+#: build/admin.js:42818
+msgid "Never"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/utils/time.js:19
+#: build/admin.js:42822
+msgid "Just now"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/utils/time.js:20
+#: build/admin.js:42823
+#, js-format
+msgid "%d second ago"
+msgid_plural "%d seconds ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: build/admin.js:438
+#: src/admin/utils/time.js:23
+#: build/admin.js:42826
+#, js-format
+msgid "%d minute ago"
+msgid_plural "%d minutes ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: build/admin.js:438
+#: src/admin/utils/time.js:27
+#: build/admin.js:42830
+#, js-format
+msgid "%d hour ago"
+msgid_plural "%d hours ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: build/admin.js:438
+#: src/admin/utils/time.js:29
+#: build/admin.js:42832
+msgid "Yesterday"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/utils/time.js:31
+#: build/admin.js:42834
+#, js-format
+msgid "%d day ago"
+msgid_plural "%d days ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: build/admin.js:438
+#: src/admin/utils/time.js:33
+#: build/admin.js:42836
+#, js-format
+msgid "%d month ago"
+msgid_plural "%d months ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: build/admin.js:438
+#: src/admin/utils/time.js:35
+#: build/admin.js:42838
+#, js-format
+msgid "%d year ago"
+msgid_plural "%d years ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: build/admin.js:438
+#: src/admin/components/layout/TopBar.jsx:54
+#: build/admin.js:42894
+msgid "Last Scan:"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/layout/TopBar.jsx:127
+#: build/admin.js:42967
+msgid "What's new"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/layout/TopBar.jsx:127
+#: build/admin.js:42967
+msgid "Up to date"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/layout/TopBar.jsx:138
+#: build/admin.js:42978
+msgid "No release notes available."
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/layout/TopBar.jsx:192
+#: build/admin.js:43032
+msgid "Got it"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/layout/TopBar.jsx:253
+#: build/admin.js:43093
+msgid "Workspace"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/dashboard/ComplianceGauge.jsx:5
+#: build/admin.js:43206
+msgid "Strong"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/dashboard/ComplianceGauge.jsx:6
+#: build/admin.js:43207
+msgid "Fair"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/dashboard/ComplianceGauge.jsx:7
+#: build/admin.js:43208
+msgid "Weak"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/dashboard/TotalConsentsCard.jsx:49
+#: build/admin.js:43363
+msgid "Total Consents"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/dashboard/TotalConsentsCard.jsx:64
+#: build/admin.js:43378
+msgid "Recent"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/dashboard/TotalConsentsCard.jsx:64
+#: build/admin.js:43378
+msgid "days vs earlier"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/dashboard/TotalConsentsCard.jsx:64
+#: build/admin.js:43378
+msgid "days"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/dashboard/TotalConsentsCard.jsx:66
+#: build/admin.js:43380
+msgid "Earlier period:"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/dashboard/TotalConsentsCard.jsx:66
+#: src/admin/components/dashboard/TotalConsentsCard.jsx:67
+#: build/admin.js:43380
+#: build/admin.js:43381
+msgid "consents"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/dashboard/TotalConsentsCard.jsx:67
+#: build/admin.js:43381
+msgid "Recent period:"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/dashboard/TotalConsentsCard.jsx:68
+#: build/admin.js:43382
+msgid "Change:"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/dashboard/TotalConsentsCard.jsx:100
+#: build/admin.js:43414
+msgid "in last 7 days"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/dashboard/TotalConsentsCard.jsx:103
+#: build/admin.js:43417
+msgid "accept rate"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/dashboard/ActiveCookiesCard.jsx:26
+#: build/admin.js:43506
+msgid "Active Cookies"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/cookies/CookieFilterBar.jsx:7
+#: src/admin/components/dashboard/ActiveCookiesCard.jsx:32
+#: build/admin.js:43512
+#: build/admin.js:44329
+msgid "Necessary"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/dashboard/ActiveCookiesCard.jsx:62
+#: build/admin.js:43542
+msgid "View Detailed List"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/dashboard/RecentActivity.jsx:7
+#: build/admin.js:43574
+msgid "Consent Given"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/dashboard/RecentActivity.jsx:8
+#: build/admin.js:43575
+msgid "Visitor accepted all cookies on"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/dashboard/RecentActivity.jsx:14
+#: build/admin.js:43581
+msgid "Consent Declined"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/dashboard/RecentActivity.jsx:15
+#: build/admin.js:43582
+msgid "Visitor declined all cookies on"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/dashboard/RecentActivity.jsx:21
+#: build/admin.js:43588
+msgid "Custom Preferences"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/dashboard/RecentActivity.jsx:22
+#: build/admin.js:43589
+msgid "Visitor customized settings on"
+msgstr ""
+
+#: build/admin.js:438
+#: build/admin.js:440
+#: src/admin/components/dashboard/RecentActivity.jsx:54
+#: src/admin/pages/ScanHistory.jsx:596
+#: build/admin.js:43621
+#: build/admin.js:49254
+msgid "Recent Activity"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/dashboard/RecentActivity.jsx:65
+#: build/admin.js:43632
+msgid "Consent Events"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/dashboard/RecentActivity.jsx:95
+#: build/admin.js:43662
+msgid "No consent activity yet. Events will appear here once visitors interact with the banner."
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/dashboard/ScanCTA.jsx:71
+#: src/admin/hooks/useScanner.js:45
+#: build/admin.js:43785
+#: build/admin.js:43983
+msgid "Scanning…"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/hooks/useScanner.js:46
+#: build/admin.js:43786
+msgid "Crawling pages and detecting cookies. This usually takes 5–30 seconds."
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/hooks/useScanner.js:73
+#: build/admin.js:43813
+msgid "Basic scan complete"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/hooks/useScanner.js:74
+#: build/admin.js:43814
+msgid "Now detecting JS trackers, pixels, and storage entries…"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/hooks/useScanner.js:103
+#: src/admin/hooks/useScanner.js:156
+#: build/admin.js:43843
+#: build/admin.js:43896
+msgid "Scan failed"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/hooks/useScanner.js:104
+#: build/admin.js:43844
+msgid "Some scan phases did not finish. Check the WordPress error log."
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/hooks/useScanner.js:114
+#: build/admin.js:43854
+msgid "Scan complete"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/hooks/useScanner.js:115
+#: build/admin.js:43855
+msgid "All cookies, trackers, and storage entries have been detected and added to your inventory."
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/hooks/useScanner.js:157
+#: build/admin.js:43897
+msgid "An unexpected error occurred. Check the WordPress error log."
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/dashboard/ScanCTA.jsx:48
+#: build/admin.js:43960
+msgid "Scan Website"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/dashboard/ScanCTA.jsx:51
+#: build/admin.js:43963
+msgid "Instantly audit your site for new tracking scripts and cookies to stay compliant."
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/dashboard/ScanCTA.jsx:71
+#: build/admin.js:43983
+msgid "Start New Scan"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/dashboard/ComplianceChecklist.jsx:18
+#: build/admin.js:44006
+msgid "Consent banner is disabled — visitors do not see the popup"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/dashboard/ComplianceChecklist.jsx:19
+#: build/admin.js:44007
+msgid "Consent mode is Log Only — tracking scripts may load before consent"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/dashboard/ComplianceChecklist.jsx:20
+#: build/admin.js:44008
+msgid "Some cookies need categorization"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/dashboard/ComplianceChecklist.jsx:21
+#: build/admin.js:44009
+msgid "No privacy policy URL set in the banner"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/dashboard/ComplianceChecklist.jsx:22
+#: build/admin.js:44010
+msgid "No scan has been run in the last 30 days"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/dashboard/ComplianceChecklist.jsx:23
+#: build/admin.js:44011
+msgid "Consent expiry exceeds the 13-month CNIL ceiling"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/dashboard/ComplianceChecklist.jsx:24
+#: build/admin.js:44012
+msgid "Google Consent Mode v2 is not enabled"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/dashboard/ComplianceChecklist.jsx:106
+#: build/admin.js:44094
+msgid "Compliance Checklist"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/dashboard/ComplianceChecklist.jsx:121
+#: build/admin.js:44109
+msgid "of"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/dashboard/ComplianceChecklist.jsx:121
+#: build/admin.js:44109
+msgid "passed"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/Dashboard.jsx:34
+#: build/admin.js:44177
+#, js-format
+msgid "Failed to load dashboard: %s"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/Dashboard.jsx:51
+#: build/admin.js:44194
+msgid "Overview of your consent management and cookie compliance"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/Dashboard.jsx:65
+#: build/admin.js:44208
+msgid "Your consent banner is disabled"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/Dashboard.jsx:68
+#: build/admin.js:44211
+msgid "Visitors do not see the popup yet. Review your banner design and consent behavior, then turn it on."
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/Dashboard.jsx:81
+#: build/admin.js:44224
+msgid "Enable banner in Settings"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/Dashboard.jsx:103
+#: build/admin.js:44246
+msgid "Compliance Score"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/Dashboard.jsx:147
+#: build/admin.js:44290
+msgid "Loading compliance data…"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/Dashboard.jsx:151
+#: build/admin.js:44294
+msgid "All compliance checks passed. Your site meets current GDPR/CCPA requirements."
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/Dashboard.jsx:154
+#: build/admin.js:44297
+#, js-format
+msgid "Your site is %d%% compliant. 1 item needs attention — see the checklist below."
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/Dashboard.jsx:156
+#: build/admin.js:44299
+#, js-format
+msgid "Your site is %d%% compliant. %d items need attention — see the checklist below."
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/cookies/CookieFilterBar.jsx:6
+#: build/admin.js:44328
+msgid "All"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/cookies/CookieFilterBar.jsx:8
+#: build/admin.js:44330
+msgid "Analytical"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/cookies/CookieFilterBar.jsx:11
+#: src/admin/components/cookies/StatsCards.jsx:155
+#: build/admin.js:44333
+#: build/admin.js:46432
+msgid "Uncategorized"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/cookies/CookieFilterBar.jsx:26
+#: build/admin.js:44348
+msgid "Search by name or provider..."
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/cookies/CookieFilterBar.jsx:45
+#: build/admin.js:44367
+msgid "Category:"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/cookies/CookieTable.jsx:96
+#: build/admin.js:44491
+msgid "3RD PARTY DOMAIN"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/cookies/CookieTable.jsx:162
+#: build/admin.js:44557
+msgid "Select all"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/cookies/CookieTable.jsx:165
+#: build/admin.js:44560
+msgid "Name"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/cookies/CookieTable.jsx:166
+#: build/admin.js:44561
+msgid "Provider"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/cookies/CookieTable.jsx:167
+#: build/admin.js:44562
+msgid "Category"
+msgstr ""
+
+#: build/admin.js:438
+#: build/admin.js:440
+#: src/admin/components/cookies/CookieTable.jsx:168
+#: src/admin/pages/ScanHistory.jsx:644
+#: src/admin/pages/ScanHistory.jsx:737
+#: build/admin.js:44563
+#: build/admin.js:49302
+#: build/admin.js:49395
+msgid "Duration"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/banner/BannerEditor.jsx:110
+#: src/admin/components/cookies/CookieTable.jsx:169
+#: build/admin.js:44564
+#: build/admin.js:47085
+msgid "Description"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/cookies/CookieTable.jsx:170
+#: build/admin.js:44565
+msgid "Actions"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/cookies/CookieTable.jsx:178
+#: build/admin.js:44573
+msgid "No cookies yet. Add one manually or run a scan."
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/cookies/CookieTable.jsx:194
+#: build/admin.js:44589
+#, js-format
+msgid "Select %s"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/cookies/CookieTable.jsx:213
+#: build/admin.js:44608
+#, js-format
+msgid "This cookie was manually assigned to the %s category."
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/cookies/CookieTable.jsx:216
+#: build/admin.js:44611
+msgid "This cookie category was manually assigned."
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/cookies/CookieTable.jsx:242
+#: build/admin.js:44637
+msgid "MANUAL"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/cookies/CookieTable.jsx:247
+#: build/admin.js:44642
+msgid "This category was automatically applied from your saved manual cookie categories. You can clear saved categories from Settings if needed."
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/cookies/CookieTable.jsx:273
+#: build/admin.js:44668
+msgid "Saved Category"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/cookies/CookieTable.jsx:283
+#: build/admin.js:44678
+#, js-format
+msgid "Detected: %s"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/cookies/CookieTable.jsx:314
+#: build/admin.js:44709
+msgid "Edit"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/cookies/CookieTable.jsx:321
+#: build/admin.js:44716
+msgid "Delete"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/cookies/CookieTable.jsx:342
+#: build/admin.js:44737
+#, js-format
+msgid "Showing %1$d of %2$d cookie"
+msgid_plural "Showing %1$d of %2$d cookies"
+msgstr[0] ""
+msgstr[1] ""
+
+#: build/admin.js:438
+#: src/admin/utils/cachePurgeNotice.js:28
+#: build/admin.js:46237
+msgid "Cache purge recommended"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/utils/cachePurgeNotice.js:29
+#: build/admin.js:46238
+msgid "CookieRay settings were updated. If you use a cache plugin, please purge your site cache to apply the latest consent behavior."
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/cookies/StatsCards.jsx:53
+#: build/admin.js:46330
+msgid "Compliance Status"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/cookies/StatsCards.jsx:56
+#: build/admin.js:46333
+#, js-format
+msgid "%d%% of cookies have detailed descriptions"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/cookies/StatsCards.jsx:88
+#: build/admin.js:46365
+msgid "Auto-Categorization"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/cookies/StatsCards.jsx:91
+#: build/admin.js:46368
+#, js-format
+msgid "Enabled for %1$d out of %2$d detected cookies"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/cookies/StatsCards.jsx:112
+#: build/admin.js:46389
+msgid "Run Scan"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/cookies/StatsCards.jsx:126
+#: build/admin.js:46403
+msgid "All cookies are categorized — nothing to review."
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/cookies/StatsCards.jsx:131
+#: build/admin.js:46408
+#, js-format
+msgid "%d unknown cookie. Blocked before consent. After consent treated as Marketing. Re-categorize site-essential ones as Necessary."
+msgid_plural "%d unknown cookies. Blocked before consent. After consent treated as Marketing. Re-categorize site-essential ones as Necessary."
+msgstr[0] ""
+msgstr[1] ""
+
+#: build/admin.js:438
+#: src/admin/components/cookies/StatsCards.jsx:140
+#: build/admin.js:46417
+#, js-format
+msgid "%d unknown cookie. Always blocked until categorized. Re-categorize site-essential ones as Necessary."
+msgid_plural "%d unknown cookies. Always blocked until categorized. Re-categorize site-essential ones as Necessary."
+msgstr[0] ""
+msgstr[1] ""
+
+#: build/admin.js:438
+#: src/admin/components/cookies/StatsCards.jsx:176
+#: build/admin.js:46453
+msgid "Review Now"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/CookieInventory.jsx:50
+#: build/admin.js:46611
+msgid "Cookie updated"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/CookieInventory.jsx:53
+#: build/admin.js:46614
+msgid "Cookie added"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/CookieInventory.jsx:58
+#: build/admin.js:46619
+msgid "Action failed"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/CookieInventory.jsx:63
+#: build/admin.js:46624
+#, js-format
+msgid "Delete cookie \"%s\"?"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/CookieInventory.jsx:66
+#: build/admin.js:46627
+msgid "Cookie deleted"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/CookieInventory.jsx:68
+#: build/admin.js:46629
+msgid "Delete failed"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/CookieInventory.jsx:74
+#: build/admin.js:46635
+#, js-format
+msgid "Delete %d selected cookie(s)?"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/CookieInventory.jsx:80
+#: src/admin/pages/CookieInventory.jsx:130
+#: build/admin.js:46641
+#: build/admin.js:46691
+#, js-format
+msgid "Deleted %d cookies"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/CookieInventory.jsx:82
+#: src/admin/pages/CookieInventory.jsx:108
+#: src/admin/pages/CookieInventory.jsx:134
+#: build/admin.js:46643
+#: build/admin.js:46669
+#: build/admin.js:46695
+msgid "Bulk delete failed"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/CookieInventory.jsx:89
+#: build/admin.js:46650
+msgid "Delete every uncategorized cookie across the entire inventory (all pages)? This cannot be undone."
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/CookieInventory.jsx:104
+#: build/admin.js:46665
+#, js-format
+msgid "Deleted %d uncategorized cookies"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/CookieInventory.jsx:105
+#: build/admin.js:46666
+msgid "No uncategorized cookies found."
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/CookieInventory.jsx:115
+#: build/admin.js:46676
+msgid "Delete EVERY cookie in the inventory across all pages? Saved manual classifications are kept (clear them separately under Settings). This cannot be undone."
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/CookieInventory.jsx:131
+#: build/admin.js:46692
+msgid "Inventory was already empty."
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/CookieInventory.jsx:158
+#: build/admin.js:46719
+msgid "Manage and categorize detected tracking scripts. These definitions are used to automatically populate your front-end cookie preference center."
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/CookieInventory.jsx:170
+#: build/admin.js:46731
+msgid "Bulk Actions"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/CookieInventory.jsx:175
+#: build/admin.js:46736
+msgid "Run new scan"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/CookieInventory.jsx:185
+#: build/admin.js:46746
+#, js-format
+msgid "Delete selected (%d)"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/CookieInventory.jsx:186
+#: build/admin.js:46747
+msgid "Delete selected (visible)"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/CookieInventory.jsx:193
+#: build/admin.js:46754
+msgid "Delete all uncategorized"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/CookieInventory.jsx:200
+#: build/admin.js:46761
+msgid "Delete all cookies"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/CookieInventory.jsx:211
+#: build/admin.js:46772
+msgid "Manual Add"
+msgstr ""
+
+#: build/admin.js:438
+#: build/admin.js:440
+#: src/admin/pages/ConsentLogs.jsx:500
+#: src/admin/pages/CookieInventory.jsx:233
+#: src/admin/pages/ScanHistory.jsx:661
+#: src/admin/pages/ScanHistory.jsx:746
+#: build/admin.js:46794
+#: build/admin.js:48313
+#: build/admin.js:49319
+#: build/admin.js:49404
+msgid "Loading…"
+msgstr ""
+
+#: build/admin.js:438
+#: build/admin.js:440
+#: build/admin.js:445
+#: src/admin/components/banner/BannerEditor.jsx:29
+#: src/admin/pages/License.jsx:117
+#: src/admin/pages/ScanHistory.jsx:167
+#: src/admin/pages/Settings.jsx:114
+#: src/admin/pro/components/GeoTargetingSection.jsx:229
+#: src/admin/pro/components/LicenseSection.jsx:43
+#: src/admin/pro/components/TrustBadgeSection.jsx:50
+#: build/admin.js:47004
+#: build/admin.js:48825
+#: build/admin.js:49755
+#: build/admin.js:49944
+#: build/admin.js:50672
+#: build/admin.js:51467
+#: build/admin.js:51757
+msgid "Pro"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/banner/BannerEditor.jsx:76
+#: build/admin.js:47051
+msgid "Sharp"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/banner/BannerEditor.jsx:77
+#: build/admin.js:47052
+msgid "Rounded"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/banner/BannerEditor.jsx:78
+#: build/admin.js:47053
+msgid "Pill"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/banner/BannerEditor.jsx:104
+#: build/admin.js:47079
+msgid "Banner Content"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/banner/BannerEditor.jsx:106
+#: build/admin.js:47081
+msgid "Headline"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/banner/BannerEditor.jsx:120
+#: build/admin.js:47095
+msgid "Show privacy policy link"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/banner/BannerEditor.jsx:140
+#: build/admin.js:47115
+msgid "Privacy Policy Link Text"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/banner/BannerEditor.jsx:142
+#: build/admin.js:47117
+msgid "Read our Privacy Policy"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/banner/BannerEditor.jsx:148
+#: build/admin.js:47123
+msgid "Privacy Policy URL"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/banner/BannerEditor.jsx:160
+#: build/admin.js:47135
+msgid "Visual Style"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/banner/BannerEditor.jsx:162
+#: build/admin.js:47137
+msgid "Layout"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/banner/BannerEditor.jsx:168
+#: build/admin.js:47143
+msgid "Card"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/banner/BannerEditor.jsx:169
+#: build/admin.js:47144
+msgid "Bar"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/banner/BannerEditor.jsx:178
+#: build/admin.js:47153
+msgid "Primary Color"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/banner/BannerEditor.jsx:182
+#: build/admin.js:47157
+msgid "Accent Color"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/banner/BannerEditor.jsx:186
+#: build/admin.js:47161
+msgid "Text Color"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/banner/BannerEditor.jsx:191
+#: build/admin.js:47166
+msgid "Corner Radius"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/banner/BannerEditor.jsx:205
+#: build/admin.js:47180
+msgid "Buttons"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/banner/BannerEditor.jsx:207
+#: build/admin.js:47182
+msgid "Accept Text"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/banner/BannerEditor.jsx:211
+#: build/admin.js:47186
+msgid "Decline Text"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/banner/BannerEditor.jsx:215
+#: build/admin.js:47190
+msgid "Preferences Text"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/banner/BannerEditor.jsx:220
+#: build/admin.js:47195
+msgid "Show decline button"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/banner/BannerEditor.jsx:229
+#: build/admin.js:47204
+msgid "Show preferences button"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/banner/BannerEditor.jsx:239
+#: build/admin.js:47214
+msgid "Positioning"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/banner/BannerEditor.jsx:243
+#: build/admin.js:47218
+msgid "Overlay Background"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/banner/BannerEditor.jsx:253
+#: build/admin.js:47228
+msgid "Cookie Categories"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/banner/BannerEditor.jsx:266
+#: build/admin.js:47241
+msgid "Description shown to visitors"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/banner/BannerEditor.jsx:275
+#: build/admin.js:47250
+msgid "Advanced"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/banner/BannerEditor.jsx:278
+#: src/admin/components/banner/BannerEditor.jsx:294
+#: build/admin.js:47253
+#: build/admin.js:47269
+msgid "Custom CSS"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/banner/BannerEditor.jsx:304
+#: build/admin.js:47279
+msgid "Applied on the live site only, targeting .cookieray-banner and related classes. Not reflected in this preview."
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/components/banner/BannerEditor.jsx:288
+#: build/admin.js:47263
+msgid "A Pro license is required to use custom CSS. Upgrade or reactivate Pro to unlock this feature."
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/BannerDesign.jsx:65
+#: build/admin.js:47708
+msgid "Banner settings saved"
+msgstr ""
+
+#: build/admin.js:438
+#: build/admin.js:445
+#: src/admin/pages/BannerDesign.jsx:67
+#: src/admin/pages/Settings.jsx:472
+#: build/admin.js:47710
+#: build/admin.js:51030
+msgid "Save failed"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/BannerDesign.jsx:99
+#: build/admin.js:47742
+msgid "Customize your visitor experience. Craft a consent banner that matches your brand's visual identity and ethical standards."
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/BannerDesign.jsx:116
+#: build/admin.js:47759
+msgid "Reset to Default"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/BannerDesign.jsx:119
+#: build/admin.js:47762
+msgid "Save"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/BannerDesign.jsx:137
+#: build/admin.js:47780
+msgid "Live Preview"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ConsentLogs.jsx:39
+#: build/admin.js:47852
+msgid "ACCEPTED ALL"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ConsentLogs.jsx:46
+#: build/admin.js:47859
+msgid "REJECTED ALL"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ConsentLogs.jsx:53
+#: build/admin.js:47866
+msgid "CUSTOM"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ConsentLogs.jsx:98
+#: build/admin.js:47911
+msgid "Consent Receipt"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ConsentLogs.jsx:103
+#: build/admin.js:47916
+msgid "COOKIERAY COMPLIANCE AUDIT TRAIL"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ConsentLogs.jsx:128
+#: build/admin.js:47941
+msgid "LOGGED AT"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ConsentLogs.jsx:129
+#: build/admin.js:47942
+msgid "CONSENT ID"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ConsentLogs.jsx:132
+#: build/admin.js:47945
+msgid "USER ID (ANONYMIZED)"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ConsentLogs.jsx:133
+#: build/admin.js:47946
+msgid "COUNTRY"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ConsentLogs.jsx:136
+#: build/admin.js:47949
+msgid "PAGE URL"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ConsentLogs.jsx:179
+#: build/admin.js:47992
+msgid "CATEGORIES ACCEPTED"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ConsentLogs.jsx:220
+#: build/admin.js:48033
+#, js-format
+msgid "Generated on %s"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ConsentLogs.jsx:230
+#: build/admin.js:48043
+msgid "· CookieRay Plugin · Verifiable record for GDPR / CCPA compliance audits."
+msgstr ""
+
+#: build/admin.js:438
+#: build/admin.js:445
+#: src/admin/pages/ConsentLogs.jsx:319
+#: src/admin/pages/Settings.jsx:491
+#: build/admin.js:48132
+#: build/admin.js:51049
+msgid "Export failed"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ConsentLogs.jsx:330
+#: build/admin.js:48143
+msgid "Detailed compliance audit trail showing visitor interactions with your cookie consent banner. All data is anonymized and masked to comply with GDPR and CCPA standards."
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ConsentLogs.jsx:341
+#: build/admin.js:48154
+msgid "Export as CSV"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ConsentLogs.jsx:358
+#: build/admin.js:48171
+msgid "From"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ConsentLogs.jsx:379
+#: build/admin.js:48192
+msgid "To"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ConsentLogs.jsx:401
+#: src/admin/pages/ConsentLogs.jsx:491
+#: build/admin.js:48214
+#: build/admin.js:48304
+msgid "Consent Type"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ConsentLogs.jsx:404
+#: build/admin.js:48217
+msgid "All Types"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ConsentLogs.jsx:410
+#: build/admin.js:48223
+msgid "Accepted All"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ConsentLogs.jsx:411
+#: build/admin.js:48224
+msgid "Rejected All"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ConsentLogs.jsx:412
+#: build/admin.js:48225
+msgid "Custom Selection"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ConsentLogs.jsx:430
+#: build/admin.js:48243
+msgid "Search ID or URL"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ConsentLogs.jsx:432
+#: build/admin.js:48245
+msgid "Search logs..."
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ConsentLogs.jsx:463
+#: build/admin.js:48276
+msgid "Clear all filters"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ConsentLogs.jsx:489
+#: build/admin.js:48302
+msgid "Date / Time"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ConsentLogs.jsx:490
+#: build/admin.js:48303
+msgid "User ID (Anonymized)"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ConsentLogs.jsx:492
+#: src/admin/pages/ConsentLogs.jsx:687
+#: build/admin.js:48305
+#: build/admin.js:48500
+msgid "Page URL"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ConsentLogs.jsx:493
+#: build/admin.js:48306
+msgid "Action"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ConsentLogs.jsx:506
+#: build/admin.js:48319
+msgid "No consent logs found."
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ConsentLogs.jsx:571
+#: build/admin.js:48384
+msgid "View details"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ConsentLogs.jsx:581
+#: build/admin.js:48394
+msgid "Download PDF receipt"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ConsentLogs.jsx:612
+#: build/admin.js:48425
+#, js-format
+msgid "Showing %1$s to %2$s of %3$s logs"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ConsentLogs.jsx:670
+#: build/admin.js:48483
+msgid "Consent Log Details"
+msgstr ""
+
+#: build/admin.js:438
+#: build/admin.js:440
+#: src/admin/pages/ConsentLogs.jsx:678
+#: src/admin/pages/ScanHistory.jsx:479
+#: src/admin/pages/ScanHistory.jsx:702
+#: build/admin.js:48491
+#: build/admin.js:49137
+#: build/admin.js:49360
+msgid "Status"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ConsentLogs.jsx:683
+#: build/admin.js:48496
+msgid "Logged at"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ConsentLogs.jsx:684
+#: build/admin.js:48497
+msgid "User ID (anonymized)"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ConsentLogs.jsx:685
+#: build/admin.js:48498
+msgid "Consent ID"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ConsentLogs.jsx:686
+#: build/admin.js:48499
+msgid "Country"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ConsentLogs.jsx:690
+#: build/admin.js:48503
+msgid "Categories"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ScanHistory.jsx:58
+#: build/admin.js:48716
+msgid "0 New"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ScanHistory.jsx:61
+#: build/admin.js:48719
+#, js-format
+msgid "%d Found"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ScanHistory.jsx:63
+#: build/admin.js:48721
+#, js-format
+msgid "%d New"
+msgstr ""
+
+#: build/admin.js:438
+#: build/admin.js:440
+#: src/admin/pages/ScanHistory.jsx:70
+#: src/admin/pages/ScanHistory.jsx:733
+#: build/admin.js:48728
+#: build/admin.js:49391
+msgid "Manual"
+msgstr ""
+
+#: build/admin.js:438
+#: build/admin.js:440
+#: src/admin/pages/ScanHistory.jsx:70
+#: src/admin/pages/ScanHistory.jsx:733
+#: build/admin.js:48728
+#: build/admin.js:49391
+msgid "Automated"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ScanHistory.jsx:111
+#: build/admin.js:48769
+msgid "Failed"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ScanHistory.jsx:219
+#: build/admin.js:48877
+msgid "ACTIVE"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ScanHistory.jsx:263
+#: build/admin.js:48921
+msgid "Schedule Scan"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ScanHistory.jsx:269
+#: build/admin.js:48927
+msgid "Maintain continuous compliance by automating your cookie discovery. Choose a frequency that fits your development cycle."
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ScanHistory.jsx:272
+#: build/admin.js:48930
+msgid "Enable scheduled scanning"
+msgstr ""
+
+#: build/admin.js:438
+#: build/admin.js:445
+#: src/admin/pages/ScanHistory.jsx:281
+#: src/admin/pages/Settings.jsx:727
+#: build/admin.js:48939
+#: build/admin.js:51285
+msgid "Scheduled scans paused — Pro license required."
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ScanHistory.jsx:286
+#: build/admin.js:48944
+msgid "Daily Scan"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ScanHistory.jsx:287
+#: build/admin.js:48945
+msgid "02:00 AM"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ScanHistory.jsx:294
+#: build/admin.js:48952
+msgid "Weekly Scan"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ScanHistory.jsx:295
+#: build/admin.js:48953
+msgid "Every Monday"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ScanHistory.jsx:302
+#: build/admin.js:48960
+msgid "Monthly Scan"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ScanHistory.jsx:303
+#: build/admin.js:48961
+msgid "1st of Month"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ScanHistory.jsx:315
+#: build/admin.js:48973
+msgid "Available in CookieRay Pro"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ScanHistory.jsx:330
+#: build/admin.js:48988
+msgid "Update Schedule"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ScanHistory.jsx:353
+#: build/admin.js:49011
+msgid "Compliance Health"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ScanHistory.jsx:363
+#: build/admin.js:49021
+msgid "Real-Time Metric"
+msgstr ""
+
+#: build/admin.js:438
+#: build/admin.js:440
+#: src/admin/pages/ScanHistory.jsx:420
+#: src/admin/pages/ScanHistory.jsx:484
+#: src/admin/pages/ScanHistory.jsx:738
+#: build/admin.js:49078
+#: build/admin.js:49142
+#: build/admin.js:49396
+msgid "URLs Scanned"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ScanHistory.jsx:423
+#: build/admin.js:49081
+msgid "Scans all site URLs: pages, posts, WooCommerce pages (cart, checkout, etc.), and login page. JS trackers, pixels & third-party scripts are detected automatically."
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ScanHistory.jsx:446
+#: build/admin.js:49104
+msgid "Unclassified"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ScanHistory.jsx:454
+#: build/admin.js:49112
+msgid "* Includes deep scan: JS trackers, pixels & third-party scripts detected automatically."
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ScanHistory.jsx:474
+#: build/admin.js:49132
+msgid "No scans to export yet."
+msgstr ""
+
+#: build/admin.js:438
+#: build/admin.js:440
+#: src/admin/pages/ScanHistory.jsx:478
+#: src/admin/pages/ScanHistory.jsx:730
+#: build/admin.js:49136
+#: build/admin.js:49388
+msgid "Scan ID"
+msgstr ""
+
+#: build/admin.js:438
+#: build/admin.js:440
+#: src/admin/pages/ScanHistory.jsx:480
+#: src/admin/pages/ScanHistory.jsx:732
+#: build/admin.js:49138
+#: build/admin.js:49390
+msgid "Trigger"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ScanHistory.jsx:481
+#: build/admin.js:49139
+msgid "Started At"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ScanHistory.jsx:482
+#: build/admin.js:49140
+msgid "Completed At"
+msgstr ""
+
+#: build/admin.js:438
+#: src/admin/pages/ScanHistory.jsx:483
+#: build/admin.js:49141
+msgid "Duration (s)"
+msgstr ""
+
+#: build/admin.js:438
+#: build/admin.js:440
+#: src/admin/pages/ScanHistory.jsx:485
+#: src/admin/pages/ScanHistory.jsx:739
+#: build/admin.js:49143
+#: build/admin.js:49397
+msgid "Cookies Found"
+msgstr ""
+
+#: build/admin.js:438
+#: build/admin.js:440
+#: src/admin/pages/ScanHistory.jsx:486
+#: src/admin/pages/ScanHistory.jsx:653
+#: src/admin/pages/ScanHistory.jsx:740
+#: build/admin.js:49144
+#: build/admin.js:49311
+#: build/admin.js:49398
+msgid "New Cookies"
+msgstr ""
+
+#: build/admin.js:438
+#: build/admin.js:440
+#: src/admin/pages/ScanHistory.jsx:487
+#: src/admin/pages/ScanHistory.jsx:811
+#: build/admin.js:49145
+#: build/admin.js:49469
+msgid "Error"
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pages/ScanHistory.jsx:552
+#: build/admin.js:49210
+msgid "Scan History & Orchestration"
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pages/ScanHistory.jsx:555
+#: build/admin.js:49213
+msgid "Manage your automated compliance audits and manual deep-scans."
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pages/ScanHistory.jsx:575
+#: build/admin.js:49233
+msgid "Scan Now"
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pages/ScanHistory.jsx:609
+#: build/admin.js:49267
+msgid "Download Report"
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pages/ScanHistory.jsx:635
+#: build/admin.js:49293
+msgid "Date & Timestamp"
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pages/ScanHistory.jsx:665
+#: build/admin.js:49323
+msgid "No scans yet. Click \"Scan Now\" to run your first scan."
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pages/ScanHistory.jsx:694
+#: build/admin.js:49352
+msgid "Scan Details"
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pages/ScanHistory.jsx:735
+#: build/admin.js:49393
+msgid "Started"
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pages/ScanHistory.jsx:736
+#: build/admin.js:49394
+msgid "Completed"
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pages/ScanHistory.jsx:743
+#: build/admin.js:49401
+msgid "Third-Party Trackers"
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pages/ScanHistory.jsx:753
+#: build/admin.js:49411
+#, js-format
+msgid "Total: %d"
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pages/ScanHistory.jsx:757
+#: build/admin.js:49415
+#, js-format
+msgid "High: %d"
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pages/ScanHistory.jsx:762
+#: build/admin.js:49420
+#, js-format
+msgid "Med: %d"
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pages/ScanHistory.jsx:767
+#: build/admin.js:49425
+#, js-format
+msgid "Low: %d"
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pages/ScanHistory.jsx:748
+#: build/admin.js:49406
+msgid "No trackers detected."
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pro/components/GeoTargetingSection.jsx:251
+#: build/admin.js:49777
+msgid "Geo rules saved."
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pro/components/GeoTargetingSection.jsx:253
+#: src/admin/pro/components/IntegrationsSection.jsx:146
+#: src/admin/pro/components/TrustBadgeSection.jsx:219
+#: build/admin.js:49779
+#: build/admin.js:50113
+#: build/admin.js:50510
+msgid "Save failed."
+msgstr ""
+
+#: build/admin.js:440
+#: build/admin.js:445
+#: src/admin/pages/License.jsx:33
+#: src/admin/pro/components/GeoTargetingSection.jsx:265
+#: build/admin.js:49791
+#: build/admin.js:51673
+msgid "Geo Targeting"
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pro/components/GeoTargetingSection.jsx:272
+#: build/admin.js:49798
+msgid "Choose where the cookie consent banner should or should not appear based on visitor location."
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pro/components/GeoTargetingSection.jsx:297
+#: build/admin.js:49823
+msgid "Hide banner from these countries"
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pro/components/GeoTargetingSection.jsx:300
+#: build/admin.js:49826
+msgid "Banner will not appear for visitors from selected countries. Everyone else sees it by default."
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pro/components/GeoTargetingSection.jsx:303
+#: build/admin.js:49829
+msgid "Search countries…"
+msgstr ""
+
+#: build/admin.js:440
+#: build/admin.js:445
+#: src/admin/pages/Settings.jsx:542
+#: src/admin/pro/components/GeoTargetingSection.jsx:332
+#: src/admin/pro/components/IntegrationsSection.jsx:188
+#: src/admin/pro/components/TrustBadgeSection.jsx:428
+#: build/admin.js:49858
+#: build/admin.js:50322
+#: build/admin.js:50552
+#: build/admin.js:51100
+msgid "Saving…"
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pro/components/GeoTargetingSection.jsx:332
+#: build/admin.js:49858
+msgid "Save Rules"
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pro/components/GeoTargetingSection.jsx:285
+#: build/admin.js:49811
+msgid "A Pro license is required to use geo targeting. Upgrade or reactivate Pro to unlock this feature."
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pro/components/TrustBadgeSection.jsx:21
+#: build/admin.js:49915
+msgid "Bottom Left"
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pro/components/TrustBadgeSection.jsx:22
+#: build/admin.js:49916
+msgid "Bottom Right"
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pro/components/TrustBadgeSection.jsx:23
+#: build/admin.js:49917
+msgid "Bottom Center"
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pro/components/TrustBadgeSection.jsx:27
+#: build/admin.js:49921
+msgid "Minimal"
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pro/components/TrustBadgeSection.jsx:27
+#: build/admin.js:49921
+msgid "Text only"
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pro/components/TrustBadgeSection.jsx:28
+#: build/admin.js:49922
+msgid "Full"
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pro/components/TrustBadgeSection.jsx:28
+#: build/admin.js:49922
+msgid "Shield + text"
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pro/components/TrustBadgeSection.jsx:81
+#: src/admin/pro/components/TrustBadgeSection.jsx:198
+#: src/admin/pro/components/TrustBadgeSection.jsx:284
+#: src/admin/pro/components/TrustBadgeSection.jsx:388
+#: build/admin.js:49975
+#: build/admin.js:50092
+#: build/admin.js:50178
+#: build/admin.js:50282
+msgid "Privacy Protected"
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pro/components/TrustBadgeSection.jsx:217
+#: build/admin.js:50111
+msgid "Trust badge saved."
+msgstr ""
+
+#: build/admin.js:440
+#: build/admin.js:445
+#: src/admin/pages/License.jsx:43
+#: src/admin/pro/components/TrustBadgeSection.jsx:232
+#: build/admin.js:50126
+#: build/admin.js:51683
+msgid "Trust Badge"
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pro/components/TrustBadgeSection.jsx:239
+#: build/admin.js:50133
+msgid "Display a \"Privacy Protected\" badge on your frontend to signal to visitors that your site respects their privacy."
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pro/components/TrustBadgeSection.jsx:266
+#: build/admin.js:50160
+msgid "Show trust badge on frontend"
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pro/components/TrustBadgeSection.jsx:269
+#: build/admin.js:50163
+msgid "Visible on all pages when the consent banner is active."
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pro/components/TrustBadgeSection.jsx:281
+#: build/admin.js:50175
+msgid "Badge Text"
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pro/components/TrustBadgeSection.jsx:293
+#: build/admin.js:50187
+msgid "Position"
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pro/components/TrustBadgeSection.jsx:333
+#: build/admin.js:50227
+msgid "Style"
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pro/components/TrustBadgeSection.jsx:399
+#: build/admin.js:50293
+msgid "Preview"
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pro/components/TrustBadgeSection.jsx:428
+#: build/admin.js:50322
+msgid "Save Badge"
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pro/components/TrustBadgeSection.jsx:252
+#: build/admin.js:50146
+msgid "A Pro license is required to use the trust badge. Upgrade or reactivate Pro to unlock this feature."
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pro/components/IntegrationsSection.jsx:144
+#: build/admin.js:50508
+msgid "Integrations saved."
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pro/components/IntegrationsSection.jsx:188
+#: build/admin.js:50552
+msgid "Save Integrations"
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pages/Settings.jsx:59
+#: build/admin.js:50617
+msgid "Daily"
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pages/Settings.jsx:60
+#: build/admin.js:50618
+msgid "Weekly"
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pages/Settings.jsx:61
+#: build/admin.js:50619
+msgid "Monthly"
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pages/Settings.jsx:65
+#: build/admin.js:50623
+msgid "6 Months (Strict — CNIL / Irish DPC)"
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pages/Settings.jsx:66
+#: build/admin.js:50624
+msgid "1 Year (Recommended — GDPR + CCPA)"
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pages/Settings.jsx:67
+#: build/admin.js:50625
+msgid "13 Months (Max — CNIL ceiling)"
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pages/Settings.jsx:71
+#: build/admin.js:50629
+msgid "Google Tag Manager"
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pages/Settings.jsx:72
+#: build/admin.js:50630
+msgid "Meta Pixel"
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pages/Settings.jsx:73
+#: build/admin.js:50631
+msgid "Adobe Analytics"
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pages/Settings.jsx:210
+#: build/admin.js:50768
+msgid "Connect"
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pages/Settings.jsx:222
+#: build/admin.js:50780
+msgid "Custom — enter days"
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pages/Settings.jsx:245
+#: build/admin.js:50803
+#, js-format
+msgid "%1$d–%2$d days"
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pages/Settings.jsx:259
+#: build/admin.js:50817
+msgid "Consent Storage"
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pages/Settings.jsx:271
+#: build/admin.js:50829
+msgid "Storage Duration"
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pages/Settings.jsx:275
+#: build/admin.js:50833
+msgid "How long consent records are kept on the server before they're automatically purged. This is your audit trail retention — independent of the visitor's cookie expiry."
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pages/Settings.jsx:284
+#: build/admin.js:50842
+msgid "Download a full audit trail of user consents for compliance reviews."
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pages/Settings.jsx:309
+#: build/admin.js:50867
+msgid "Data Portability Export"
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pages/Settings.jsx:339
+#: build/admin.js:50897
+msgid "Consent Health"
+msgstr ""
+
+#: build/admin.js:440
+#: src/admin/pages/Settings.jsx:357
+#: build/admin.js:50915
+msgid "Your site is currently meeting all regulatory thresholds for the selected frameworks."
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/Settings.jsx:421
+#: build/admin.js:50979
+msgid "Clear all remembered manual cookie categories? Future scans will use scanner-detected categories until you re-categorize."
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/Settings.jsx:440
+#: build/admin.js:50998
+#, js-format
+msgid "Cleared %d remembered classifications"
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/Settings.jsx:441
+#: build/admin.js:50999
+msgid "No remembered classifications to clear."
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/Settings.jsx:444
+#: build/admin.js:51002
+msgid "Clear failed"
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/Settings.jsx:470
+#: build/admin.js:51028
+msgid "Settings saved"
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/Settings.jsx:502
+#: build/admin.js:51060
+msgid "Cookie Consent Settings"
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/Settings.jsx:504
+#: build/admin.js:51062
+msgid "Manage how CookieRay displays the consent banner, stores visitor choices, blocks cookies, and handles privacy-related settings."
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/Settings.jsx:523
+#: build/admin.js:51081
+msgid "Discard Changes"
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/Settings.jsx:542
+#: build/admin.js:51100
+msgid "Save Configuration"
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/Settings.jsx:552
+#: build/admin.js:51110
+msgid "Banner Display"
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/Settings.jsx:554
+#: build/admin.js:51112
+msgid "Control how the cookie consent banner appears on your website."
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/Settings.jsx:558
+#: build/admin.js:51116
+msgid "Show Cookie Consent Banner"
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/Settings.jsx:559
+#: build/admin.js:51117
+msgid "Enable this option to display the cookie consent banner on your public website. If disabled, CookieRay will not show the banner or manage visitor consent on the frontend, but admin tools like cookie scanning, consent logs, and banner design will still work."
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/Settings.jsx:565
+#: build/admin.js:51123
+msgid "Show Floating Cookie Settings Button"
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/Settings.jsx:566
+#: build/admin.js:51124
+msgid "Display a small floating button so visitors can reopen their cookie settings after making a choice. If disabled, you can add a “Cookie Settings” link to your footer or privacy policy instead."
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/Settings.jsx:577
+#: build/admin.js:51135
+msgid "Consent Behavior"
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/Settings.jsx:579
+#: build/admin.js:51137
+msgid "Choose how CookieRay handles cookies and scripts before visitors give consent."
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/Settings.jsx:586
+#: build/admin.js:51144
+msgid "Log Consent Only"
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/Settings.jsx:587
+#: build/admin.js:51145
+msgid "Records visitor consent choices for audit purposes without blocking scripts or cookies. Suitable for websites that do not require strict cookie blocking."
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/Settings.jsx:593
+#: build/admin.js:51151
+msgid "Block Until Consent"
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/Settings.jsx:594
+#: build/admin.js:51152
+msgid "Blocks non-essential scripts and cookies until the visitor gives consent. Recommended for stricter privacy compliance needs."
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/Settings.jsx:602
+#: build/admin.js:51160
+msgid "Important Note About Cookie Blocking"
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/Settings.jsx:611
+#: build/admin.js:51169
+msgid "Some cookies may be set before CookieRay loads, especially if they are added by the server, theme, or another plugin. CookieRay can remove blocked cookies after page load, but full prevention may require blocking the source script or using server-side control."
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/Settings.jsx:617
+#: build/admin.js:51175
+msgid "Google Consent Mode v2"
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/Settings.jsx:619
+#: build/admin.js:51177
+msgid "Configure Google consent signals for services like Google Analytics, Google Ads, and Google Tag Manager."
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/Settings.jsx:622
+#: build/admin.js:51180
+msgid "Enable Google Consent Mode v2"
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/Settings.jsx:623
+#: build/admin.js:51181
+msgid "Send consent signals to Google services so they can adjust tracking behavior based on each visitor’s consent choices. Recommended if you use Google Analytics, Google Ads, or Google Tag Manager."
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/Settings.jsx:630
+#: build/admin.js:51188
+msgid "Uncategorized Cookie Handling"
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/Settings.jsx:632
+#: build/admin.js:51190
+msgid "Uncategorized cookies are cookies detected by the scanner but not yet assigned to a category. If any of these cookies are required for login, cart, checkout, security, consent storage, or core site features, assign them to the Necessary category. Otherwise, they will be blocked based on your Uncategorized Cookie Handling setting."
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/Settings.jsx:639
+#: build/admin.js:51197
+msgid "Always Block Uncategorized Cookies"
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/Settings.jsx:640
+#: build/admin.js:51198
+msgid "Blocks uncategorized cookies before and after consent, including when visitors accept all cookies. This is the safest option until each cookie is reviewed and assigned to the correct category."
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/Settings.jsx:646
+#: build/admin.js:51204
+msgid "Treat Uncategorized Cookies as Marketing"
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/Settings.jsx:647
+#: build/admin.js:51205
+msgid "Handles uncategorized cookies as Marketing cookies. They will be allowed only if the visitor accepts Marketing cookies."
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/Settings.jsx:653
+#: build/admin.js:51211
+msgid "Saved Cookie Categories"
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/Settings.jsx:655
+#: build/admin.js:51213
+msgid "CookieRay can save your manually assigned cookie categories and reuse them after future scans, so you do not need to categorize the same cookies again."
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/Settings.jsx:658
+#: build/admin.js:51216
+msgid "Reuse Saved Cookie Categories"
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/Settings.jsx:659
+#: build/admin.js:51217
+msgid "Automatically apply saved cookie categories after future scans."
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/Settings.jsx:667
+#: build/admin.js:51225
+msgid "Clear Saved Cookie Categories"
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/Settings.jsx:670
+#: build/admin.js:51228
+msgid "Remove all saved cookie categories. Existing cookies in the inventory will remain, but future scans will use only scanner-detected categories."
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/Settings.jsx:674
+#: build/admin.js:51232
+#, js-format
+msgid "%d remembered classifications stored."
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/Settings.jsx:685
+#: build/admin.js:51243
+msgid "Clear"
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/Settings.jsx:691
+#: build/admin.js:51249
+msgid "Consent Expiration"
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/Settings.jsx:693
+#: build/admin.js:51251
+msgid "Set how long a visitor’s cookie consent choice remains valid before asking again."
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/Settings.jsx:697
+#: build/admin.js:51255
+msgid "Ask for Consent Again After"
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/Settings.jsx:707
+#: build/admin.js:51265
+msgid "Choose when visitors should be asked to update their cookie consent preferences."
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/Settings.jsx:713
+#: build/admin.js:51271
+msgid "Automated Cookie Scans"
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/Settings.jsx:715
+#: build/admin.js:51273
+msgid "Automatically scan your website on a schedule to keep your cookie inventory up to date."
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/Settings.jsx:719
+#: build/admin.js:51277
+msgid "Enable Scheduled Scans"
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/Settings.jsx:720
+#: build/admin.js:51278
+msgid "Turn this on to let CookieRay scan your website automatically based on your selected frequency."
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/Settings.jsx:733
+#: build/admin.js:51291
+msgid "Scan Frequency"
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/License.jsx:38
+#: src/admin/pages/Settings.jsx:749
+#: build/admin.js:51307
+#: build/admin.js:51678
+msgid "Integrations"
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/Settings.jsx:751
+#: build/admin.js:51309
+msgid "Connect CookieRay with supported tracking and analytics tools."
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/Support.jsx:13
+#: build/admin.js:51354
+msgid "Need help? We're here for you."
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/Support.jsx:24
+#: build/admin.js:51365
+msgid "Contact Support"
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/Support.jsx:27
+#: build/admin.js:51368
+msgid "Submit a support request and our team will get back to you as soon as possible."
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/Support.jsx:42
+#: build/admin.js:51383
+msgid "Get Support"
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pro/components/LicenseSection.jsx:54
+#: build/admin.js:51478
+msgid "License Active"
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pro/components/LicenseSection.jsx:74
+#: src/admin/pro/components/LicenseSection.jsx:131
+#: build/admin.js:51498
+#: build/admin.js:51555
+msgid "License Key"
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pro/components/LicenseSection.jsx:80
+#: build/admin.js:51504
+msgid "Expires"
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pro/components/LicenseSection.jsx:86
+#: build/admin.js:51510
+msgid "Support Until"
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pro/components/LicenseSection.jsx:113
+#: build/admin.js:51537
+msgid "Deactivating…"
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pro/components/LicenseSection.jsx:113
+#: build/admin.js:51537
+msgid "Deactivate License"
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pro/components/LicenseSection.jsx:128
+#: build/admin.js:51552
+msgid "Enter your license key to unlock scheduled scans, geo targeting, third-party integrations, and trust badge."
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pro/components/LicenseSection.jsx:137
+#: build/admin.js:51561
+msgid "Email Address"
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pro/components/LicenseSection.jsx:138
+#: build/admin.js:51562
+msgid "Email used at purchase"
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pro/components/LicenseSection.jsx:150
+#: build/admin.js:51574
+msgid "Activate License"
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pro/components/LicenseSection.jsx:164
+#: build/admin.js:51588
+msgid "License activated successfully."
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pro/components/LicenseSection.jsx:168
+#: build/admin.js:51592
+msgid "Activation failed."
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pro/components/LicenseSection.jsx:175
+#: build/admin.js:51599
+msgid "License deactivated."
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pro/components/LicenseSection.jsx:178
+#: build/admin.js:51602
+msgid "Deactivation failed."
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pro/components/LicenseSection.jsx:189
+#: build/admin.js:51613
+msgid "CookieRay Pro License"
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/License.jsx:28
+#: build/admin.js:51668
+msgid "Automated Scans"
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/License.jsx:29
+#: build/admin.js:51669
+msgid "Schedule recurring cookie scans so your inventory stays current without manual effort."
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/License.jsx:34
+#: build/admin.js:51674
+msgid "Hide the consent banner from specific countries based on applicable regulations."
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/License.jsx:39
+#: build/admin.js:51679
+msgid "Connect Google Tag Manager, Meta Pixel, Adobe Analytics and more."
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/License.jsx:44
+#: build/admin.js:51684
+msgid "Display a verified consent badge on your site to build visitor trust."
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/License.jsx:98
+#: build/admin.js:51738
+msgid "Active"
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/License.jsx:152
+#: build/admin.js:51792
+msgid "Unlock CookieRay Pro"
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/License.jsx:155
+#: build/admin.js:51795
+msgid "Get automated scanning, geo targeting, third-party integrations, and a trust badge — everything you need for full compliance on any site."
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/License.jsx:167
+#: build/admin.js:51807
+msgid "Get CookieRay Pro"
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/License.jsx:171
+#: build/admin.js:51811
+msgid "Already purchased? Install the pro plugin and return here to activate your license."
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/License.jsx:184
+#: build/admin.js:51824
+msgid "CookieRay Pro"
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/License.jsx:202
+#: build/admin.js:51842
+msgid "Licensed"
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/License.jsx:207
+#: build/admin.js:51847
+msgid "Manage your pro license and view included features."
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/License.jsx:217
+#: build/admin.js:51857
+msgid "What's included"
+msgstr ""
+
+#: build/admin.js:445
+#: src/admin/pages/License.jsx:239
+#: build/admin.js:51879
+msgid "Pro Features"
+msgstr ""
