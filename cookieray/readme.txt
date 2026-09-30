@@ -4,7 +4,7 @@ Tags: cookie consent, gdpr, ccpa, cookie banner, privacy
 Requires at least: 6.2
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -213,6 +213,12 @@ Google Consent Mode documentation: https://support.google.com/analytics/answer/9
 
 == Changelog ==
 
+= 1.0.3 =
+
+* Fixed: Banner and preferences panel buttons being overridden by theme button styles, including hover, focus, and active states.
+* Fixed: Save preferences button losing its background color when no accent color was set.
+* Tested: Compatibility with the latest version of WordPress.
+
 = 1.0.2 =
 
 * Added: Text Color control for the consent banner.
@@ -239,6 +245,9 @@ Google Consent Mode documentation: https://support.google.com/analytics/answer/9
 * Responsive admin chrome with mobile-aware navigation behavior.
 
 == Upgrade Notice ==
+
+= 1.0.3 =
+Fixes theme button styles overriding the cookie banner and preferences buttons.
 
 = 1.0.2 =
 Dashboard refresh fix, plus new banner text color, custom category text, and custom expiration controls.

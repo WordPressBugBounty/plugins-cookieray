@@ -14,6 +14,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 return array(
+	'1.0.3' => array(
+		'date'  => '2026-09-30',
+		'items' => array(
+			'Fixed theme button styles overriding the consent banner and preferences panel buttons, including hover and focus states.',
+			'Fixed the Save preferences button losing its background color when no accent color was set.',
+		),
+	),
 	'1.0.2' => array(
 		'date'  => '2026-08-23',
 		'items' => array(
