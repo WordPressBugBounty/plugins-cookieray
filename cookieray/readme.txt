@@ -4,7 +4,7 @@ Tags: cookie consent, gdpr, ccpa, cookie banner, privacy
 Requires at least: 6.2
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.0.3
+Stable tag: 1.0.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -88,10 +88,13 @@ A WordPress Cron task deletes consent records older than the retention period co
 * Scheduled automatic cookie scans
 * Geo targeting – show or hide the banner by country
 * Integration with Google Tag Manager, Meta Pixel, Adobe Experience Platform
-* Trust Badge – "Privacy Protected" badge displayed in the site footer
+* Trust Badge – customizable privacy badge (your own text, position and style)
+* Custom CSS for the consent banner
 * Premium support and priority updates
 
-[Upgrade to CookieRay Pro](https://wp.cookieray.com/#pricing)
+[Upgrade to CookieRay Pro](https://wp.cookieray.com/pricing/)
+
+See the [Pro documentation](https://wp.cookieray.com/docs/pro/overview/) for setup guides, including how Geo Targeting detects visitor country.
 
 
 == Frequently Asked Questions ==
@@ -213,6 +216,14 @@ Google Consent Mode documentation: https://support.google.com/analytics/answer/9
 
 == Changelog ==
 
+= 1.0.4 =
+
+* Fixed: Dashboard compliance checklist counting a placeholder "#" privacy policy link as configured.
+* Fixed: Settings "Consent Health" card always saying all regulatory thresholds are met, even when checklist items need attention.
+* Fixed: Dashboard "Total Consents" card label, which showed the last 30 days count. It now reads "Consents (Last 30 Days)".
+* Fixed: License expiry and support dates showing as raw timestamps (Pro).
+* Tested: Compatibility with WordPress 7.1 and PHP 8.4.
+
 = 1.0.3 =
 
 * Fixed: Banner and preferences panel buttons being overridden by theme button styles, including hover, focus, and active states.
@@ -245,6 +256,9 @@ Google Consent Mode documentation: https://support.google.com/analytics/answer/9
 * Responsive admin chrome with mobile-aware navigation behavior.
 
 == Upgrade Notice ==
+
+= 1.0.4 =
+More accurate compliance score and labels on the Dashboard and Settings pages, readable license dates, and tested with WordPress 7.1 and PHP 8.4.
 
 = 1.0.3 =
 Fixes theme button styles overriding the cookie banner and preferences buttons.

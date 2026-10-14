@@ -14,6 +14,16 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 return array(
+	'1.0.4' => array(
+		'date'  => '2026-10-14',
+		'items' => array(
+			'Fixed the compliance checklist counting a placeholder "#" privacy policy link as configured.',
+			'Fixed the Settings Consent Health card saying all thresholds are met when checklist items need attention.',
+			'Renamed the Dashboard "Total Consents" card to "Consents (Last 30 Days)" to match the number it shows.',
+			'Fixed license expiry and support dates showing as raw timestamps (Pro).',
+			'Tested compatibility with WordPress 7.1 and PHP 8.4.',
+		),
+	),
 	'1.0.3' => array(
 		'date'  => '2026-09-30',
 		'items' => array(

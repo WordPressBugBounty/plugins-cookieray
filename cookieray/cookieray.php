@@ -3,7 +3,7 @@
  * Plugin Name:       CookieRay
  * Plugin URI:        https://devitems.com/
  * Description:       GDPR/CCPA-compliant cookie consent management with a premium admin UI and lightweight visitor banner.
- * Version:           1.0.3
+ * Version:           1.0.4
  * Requires at least: 6.2
  * Requires PHP:      7.4
  * Author:            DevItems
@@ -20,7 +20,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'COOKIERAY_VERSION', '1.0.3' );
+define( 'COOKIERAY_VERSION', '1.0.4' );
 define( 'COOKIERAY_DB_VERSION', '1.0.0' );
 define( 'COOKIERAY_PLUGIN_FILE', __FILE__ );
 define( 'COOKIERAY_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );

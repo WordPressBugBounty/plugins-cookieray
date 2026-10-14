@@ -95,7 +95,8 @@ class REST_Dashboard extends REST_Base {
 		$items[] = array(
 			'key'   => 'privacy_url',
 			'label' => __( 'Privacy policy link configured', 'cookieray' ),
-			'pass'  => ! empty( $banner['show_privacy_link'] ) && ! empty( $banner['privacy_link_url'] ),
+			// A bare "#" is a placeholder, not a real policy link.
+			'pass'  => ! empty( $banner['show_privacy_link'] ) && ! in_array( trim( (string) ( $banner['privacy_link_url'] ?? '' ) ), array( '', '#' ), true ),
 		);
 
 		// 4. Scan run within the last 30 days.
